@@ -26,181 +26,278 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="image" href="assets/hero-900.webp" imagesrcset="assets/hero-900.webp 900w, assets/hero-1600.webp 1600w" imagesizes="100vw">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,700;1,9..144,400;1,9..144,700&family=IBM+Plex+Mono:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,700&display=swap">
 
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"Event",
-  "name":"Open Summit 2026",
-  "startDate":"2026-09-25T15:00:00+02:00",
-  "endDate":"2026-09-26T23:30:00+02:00",
-  "eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode",
-  "eventStatus":"https://schema.org/EventScheduled",
+  "@context":"https://schema.org","@type":"Event","name":"Open Summit 2026",
+  "startDate":"2026-09-25T15:00:00+02:00","endDate":"2026-09-26T23:30:00+02:00",
+  "eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled",
   "image":["https://opensummit.berlin/assets/og.jpg"],
   "description":"Ein Ticket, zwei Tage: College Freedom Forum mit der Human Rights Foundation (Fr) und Open Summit (Sa) in der Alten Münze Berlin.",
   "location":{"@type":"Place","name":"Alte Münze","address":{"@type":"PostalAddress","streetAddress":"Am Krögel 2","postalCode":"10179","addressLocality":"Berlin","addressCountry":"DE"}},
   "organizer":[{"@type":"Organization","name":"Prometheus","url":"https://heimatderfreiheit.de"},{"@type":"Organization","name":"Human Rights Foundation","url":"https://hrf.org"}],
   "offers":{"@type":"Offer","url":"https://luma.com/c9osrlu7","availability":"https://schema.org/InStock"},
-  "performer":[{"@type":"Person","name":"Tom Palmer"},{"@type":"Person","name":"Dirk Oschmann"},{"@type":"Person","name":"Marko Martin"},{"@type":"Person","name":"Nikolai Ott"},{"@type":"Person","name":"Stefan Kolev"}],
-  "subEvent":[
-    {"@type":"Event","name":"College Freedom Forum","startDate":"2026-09-25T15:00:00+02:00","endDate":"2026-09-25T20:00:00+02:00","location":{"@type":"Place","name":"Alte Münze, Berlin"}},
-    {"@type":"Event","name":"Open Summit","startDate":"2026-09-26T09:30:00+02:00","endDate":"2026-09-26T23:30:00+02:00","location":{"@type":"Place","name":"Alte Münze, Berlin"}}
-  ]
+  "performer":[{"@type":"Person","name":"Tom Palmer"},{"@type":"Person","name":"Dirk Oschmann"},{"@type":"Person","name":"Marko Martin"},{"@type":"Person","name":"Nikolai Ott"},{"@type":"Person","name":"Stefan Kolev"}]
 }
 </script>
 
 <style>
   *{box-sizing:border-box}
-  :root{--teal:#1E5F5A;--cream:#F4F1EA}
+  :root{
+    --teal:#1E5F5A; --teal-deep:#11342F; --cream:#F4F1EA; --acc:#9FE1CB;
+    --lt:#9FE1CB; --on-acc:#15211f;
+    --line-c:rgba(244,241,234,.28); --line-t:rgba(30,95,90,.22);
+  }
   html,body{margin:0;padding:0;scroll-behavior:smooth}
-  body{font-family:"Fraunces",Georgia,serif;background:var(--teal);color:var(--cream);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
-  img{display:block}
+  body{font-family:"Archivo",system-ui,sans-serif;background:var(--teal);color:var(--cream);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  img{display:block;max-width:100%}
+  a{color:inherit}
+  .ff{font-family:"Fraunces",Georgia,serif;font-weight:700}
+  .ff em{font-style:italic}
 
-  .topnav{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;gap:.8rem;padding:.6rem clamp(1rem,5vw,3.5rem);background:var(--teal);border-bottom:1px solid rgba(244,241,234,.18)}
-  .brand{display:flex;flex-direction:column;gap:.4em;align-items:flex-start}
-  .brand-mark{display:inline-block;background:var(--cream);color:var(--teal);font-family:"IBM Plex Mono",monospace;font-weight:700;text-transform:uppercase;letter-spacing:.07em;font-size:clamp(.7rem,2.2vw,.9rem);padding:.34em .55em;line-height:1}
-  .brand-tag{font-family:"IBM Plex Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.16em;font-size:clamp(.5rem,1.5vw,.6rem);color:var(--cream);line-height:1}
+  /* Topnav */
+  .topnav{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;gap:.8rem;padding:.6rem clamp(1rem,5vw,3.5rem);background:var(--teal);border-bottom:1px solid var(--line-c);transform:translateY(0);transition:transform .28s ease}
+  .topnav.nav-hidden{transform:translateY(-100%)}
+  .brand{display:flex;flex-direction:column;gap:.34em;align-items:flex-start;text-decoration:none;line-height:1}
+  .brand-box{font-family:"Fraunces",Georgia,serif;font-weight:700;font-size:clamp(1rem,3.2vw,1.3rem);letter-spacing:-.01em;background:var(--cream);color:var(--teal);padding:.16em .42em;line-height:1.08}
+  .brand-tag{font-family:"Archivo",system-ui,sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.14em;font-size:clamp(.5rem,1.5vw,.62rem);color:var(--cream)}
   .nav-right{display:flex;align-items:center;gap:.6rem}
-  .lang{font-family:"IBM Plex Mono",monospace;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.68rem;color:var(--cream);background:transparent;border:1px solid var(--cream);padding:.4em .7em;cursor:pointer}
+  .lang{font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:.82rem;color:var(--cream);background:transparent;border:1px solid var(--cream);padding:.45em .7em;cursor:pointer;border-radius:0}
   .lang:hover{background:var(--cream);color:var(--teal)}
-  .nav-tickets{font-family:"IBM Plex Mono",monospace;font-weight:700;text-transform:uppercase;letter-spacing:.09em;font-size:.68rem;background:var(--cream);color:var(--teal);text-decoration:none;padding:.5em .85em;border:1px solid var(--cream)}
+  .nav-tickets{font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:.82rem;background:var(--cream);color:var(--teal);border:1px solid var(--cream);text-decoration:none;padding:.5em .9em;transition:background .15s,color .15s}
+  .nav-tickets:hover{background:transparent;color:var(--cream)}
 
-  .hero{position:relative;overflow:hidden;min-height:84svh;display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(1.5rem,5vw,3.5rem)}
-  .hero .bg{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;object-position:center 32%;filter:contrast(1.02) brightness(.72)}
-  .hero .flood{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(30,95,90,.2) 0%,rgba(30,95,90,.12) 26%,rgba(30,95,90,.82) 72%,rgba(30,95,90,1) 100%)}
-  .h-inner{position:relative;z-index:2;max-width:1080px;margin:0 auto;width:100%}
-  .h-kicker{font-family:"IBM Plex Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.2em;font-size:clamp(.64rem,1.9vw,.8rem);margin:0 0 1rem}
-  .h-title{font-weight:700;font-variation-settings:"opsz" 144;font-size:clamp(2rem,6.4vw,4.2rem);line-height:1.06;letter-spacing:-.02em;margin:0;max-width:18ch}
-  .h-title em{font-style:italic}
-  .h-sub{font-weight:400;font-size:clamp(1.05rem,3.4vw,1.5rem);line-height:1.34;margin:1rem 0 0;max-width:34ch}
-  .h-cta-row{display:flex;align-items:center;gap:1.1rem;flex-wrap:wrap;margin-top:1.8rem}
-  .cta{display:inline-block;background:var(--cream);color:var(--teal);font-family:"IBM Plex Mono",monospace;font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:clamp(.82rem,2.7vw,1rem);padding:.92em 1.5em;text-decoration:none;border:1px solid var(--cream);transition:background .15s,color .15s}
-  .cta:hover{background:transparent;color:var(--cream)}
-  .cta-note{font-family:"IBM Plex Mono",monospace;font-weight:400;text-transform:uppercase;letter-spacing:.13em;font-size:clamp(.6rem,1.8vw,.72rem);margin:0}
+  /* Hero */
+  .hero{position:relative;overflow:hidden;background:var(--teal);min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(4rem,12vw,6rem) clamp(1rem,5vw,3.5rem) clamp(2.4rem,6vw,3.6rem)}
+  .hero .bg{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;object-position:center 28%;filter:contrast(1.03) brightness(.82)}
+  .hero .flood{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(30,95,90,.14) 0%,rgba(30,95,90,.06) 32%,rgba(30,95,90,.86) 74%,rgba(30,95,90,1) 100%)}
+  .h-inner{position:relative;z-index:2;max-width:1100px;margin:0 auto;width:100%}
+  .h-kicker{display:flex;align-items:center;gap:.7em;font-weight:600;font-size:clamp(.92rem,2.4vw,1.08rem);letter-spacing:.08em;text-transform:uppercase;color:var(--cream);margin:0 0 1.2rem}
+  .h-kicker::before{content:"";flex:none;width:2.4em;height:2px;background:var(--acc)}
+  .h-lead{font-weight:700;font-variation-settings:"wght" 700,"wdth" 102;font-size:clamp(2.5rem,8.5vw,5rem);line-height:.98;letter-spacing:-.025em;margin:0;max-width:16ch}
+  .h-lead em{font-style:normal;color:var(--acc)}
 
-  .sec{padding:clamp(2.6rem,8vw,5.5rem) clamp(1.25rem,5vw,3.5rem);scroll-margin-top:80px}
-  .sec.teal{background:var(--teal);color:var(--cream);--fg:var(--cream);--bg:var(--teal);--line:rgba(244,241,234,.24)}
-  .sec.cream{background:var(--cream);color:var(--teal);--fg:var(--teal);--bg:var(--cream);--line:rgba(30,95,90,.2)}
-  .inner{max-width:1080px;margin:0 auto}
-  .s-title{font-weight:700;font-size:clamp(1.7rem,5.5vw,2.6rem);line-height:1.06;letter-spacing:-.02em;margin:0}
+  /* Sektionen */
+  .sec{padding:clamp(2.2rem,5.5vw,4.2rem) clamp(1rem,5vw,3.5rem);scroll-margin-top:70px}
+  .sec.teal{background:var(--teal);color:var(--cream)}
+  .sec.cream{background:var(--cream);color:var(--teal)}
+  .inner{max-width:1100px;margin:0 auto}
+  .s-title{font-family:"Fraunces",serif;font-weight:700;font-size:clamp(2.1rem,6.5vw,3.2rem);line-height:1.02;letter-spacing:-.02em;margin:0 0 1.8rem;text-wrap:balance}
+  .s-title em{font-style:italic}
 
-  .duo-head{font-weight:700;font-size:clamp(1.9rem,6.5vw,3.4rem);line-height:1.04;letter-spacing:-.02em;margin:0 0 2rem;max-width:18ch}
-  .duo-head em{font-style:italic}
-  .duo-cards{display:flex;flex-direction:column;align-items:stretch;gap:1.1rem}
-  .duo-card{background:var(--cream);color:var(--teal);padding:1.5rem 1.4rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
-  .duo-day{font-family:"IBM Plex Mono",monospace;font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;margin:0}
-  .duo-name{font-weight:700;font-size:clamp(1.6rem,5vw,2.2rem);line-height:1.02;letter-spacing:-.01em;margin:.1rem 0}
-  .duo-host{font-family:"IBM Plex Mono",monospace;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.74rem;margin:.2rem 0;padding:.45em .7em;border:1px solid var(--teal);align-self:flex-start}
-  .duo-desc{font-weight:400;font-size:1.02rem;line-height:1.4;margin:.3rem 0 0}
-  .duo-cap{font-family:"IBM Plex Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.08em;font-size:.66rem;margin:.5rem 0 0}
-  .plus{font-weight:700;font-size:2.4rem;line-height:1;text-align:center;color:var(--cream)}
+  /* Zwei Tage */
+  .duo{display:flex;flex-direction:column;align-items:stretch;gap:1.1rem}
+  .day-card{display:flex;flex-direction:row;background:var(--cream);color:var(--teal);flex:1;overflow:hidden;text-decoration:none;cursor:pointer;transition:transform .15s}
+  .day-card:hover{transform:translateY(-2px)}
+  .day-card:hover .day-name{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+  .day-date{flex:none;min-width:6.4rem;background:var(--teal-deep);color:var(--cream);padding:1.5rem 1.1rem;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;text-align:center}
+  .dd-day{font-weight:600;font-size:clamp(.92rem,2.2vw,1.04rem);letter-spacing:.02em;margin-bottom:.4rem;color:var(--lt)}
+  .dd-num{font-weight:800;font-variation-settings:"wght" 800,"wdth" 100;font-size:clamp(1.45rem,3.6vw,1.85rem);line-height:.95;letter-spacing:-.01em}
+  .day-body{flex:1;padding:1.5rem 1.6rem;display:flex;flex-direction:column}
+  .day-name{font-weight:800;font-variation-settings:"wght" 800,"wdth" 104;text-transform:uppercase;font-size:clamp(1.6rem,4.6vw,2.1rem);line-height:1.02;letter-spacing:-.02em;margin:0}
+  .day-host{font-weight:600;font-size:clamp(1.04rem,2.6vw,1.2rem);line-height:1.3;margin:.7rem 0 0;color:var(--teal)}
+  .day-desc{font-weight:400;font-size:clamp(1.04rem,2.5vw,1.14rem);line-height:1.45;margin:.7rem 0 0;max-width:44ch}
+  .day-cap{font-weight:600;font-size:clamp(.92rem,2vw,1rem);letter-spacing:.03em;text-transform:uppercase;margin:auto 0 0;padding-top:1.1rem;opacity:.55}
+  .plus{font-weight:700;font-size:2.6rem;line-height:1;text-align:center;color:var(--cream)}
+  .duo-cta{display:flex;justify-content:center;width:100%;align-items:center;background:var(--cream);color:var(--teal);border:1px solid var(--cream);font-weight:800;font-variation-settings:"wght" 800,"wdth" 105;text-transform:uppercase;font-size:clamp(1.15rem,3.2vw,1.45rem);letter-spacing:.02em;text-decoration:none;padding:1.1em 1.9em;margin:1.9rem 0 0;transition:background .15s,color .15s}
+  .duo-cta:hover{background:transparent;color:var(--cream)}
 
-  /* proof */
-  .quote{font-weight:400;font-style:italic;font-size:clamp(1.5rem,4.6vw,2.4rem);line-height:1.22;letter-spacing:-.01em;margin:0;max-width:24ch}
-  .quote b{font-style:italic;font-weight:700}
-  .quote-by{font-family:"IBM Plex Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.12em;font-size:.68rem;margin:1rem 0 0}
-  .pastgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:2.3rem 0 0}
-  .pastgrid img{width:100%;aspect-ratio:3/2;object-fit:cover;filter:contrast(1.02) brightness(.92)}
-  .partners{margin-top:2.3rem;border-top:1px solid var(--line);padding-top:1.4rem}
-  .partners .lbl{font-family:"IBM Plex Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.14em;font-size:.62rem;margin:0 0 .8rem}
-  .partners .row{font-family:"IBM Plex Mono",monospace;font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:clamp(.74rem,2vw,.92rem);line-height:1.8;margin:0}
-
-  .tabs{display:flex;gap:.5rem;margin:2rem 0 .4rem;flex-wrap:wrap}
-  .tabbtn{font-family:"IBM Plex Mono",monospace;font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.7rem;color:var(--fg);background:transparent;border:1px solid var(--fg);padding:.6em 1em;cursor:pointer}
-  .tabbtn.active{background:var(--fg);color:var(--bg)}
-  .pnote{font-family:"IBM Plex Mono",monospace;font-weight:400;text-transform:uppercase;letter-spacing:.1em;font-size:.66rem;margin:.5rem 0 1.4rem}
+  /* Programm */
+  .tabs{display:flex;width:100%;gap:0;margin:0 0 1.8rem;border:1px solid var(--line-t)}
+  .tabbtn{flex:1;text-align:center;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:clamp(.95rem,2.6vw,1.05rem);color:var(--teal);background:transparent;border:0;padding:.9em 1em;cursor:pointer}
+  .tabbtn+.tabbtn{border-left:1px solid var(--line-t)}
+  .tabbtn.active{background:var(--teal);color:var(--cream)}
   .day{display:none}.day.active{display:block}
-  .prow{display:flex;gap:1rem;align-items:baseline;padding:1.05rem .2rem;border-top:1px solid var(--line);text-decoration:none;color:inherit;transition:padding-left .15s}
-  .prow:last-child{border-bottom:1px solid var(--line)}
-  .prow:hover{padding-left:.7rem}
-  .ptime{font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:.78rem;min-width:4.6em}
-  .pmain{flex:1}
-  .ptitle{font-weight:700;font-size:clamp(1.1rem,3.4vw,1.4rem);line-height:1.12;margin:0}
-  .pspk{font-family:"IBM Plex Mono",monospace;font-weight:400;text-transform:uppercase;letter-spacing:.05em;font-size:.68rem;margin:.3rem 0 0}
-  .parrow{font-family:"IBM Plex Mono",monospace;font-weight:700;font-size:1rem}
 
-  .sgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.1rem 1rem;margin-top:2rem}
-  .scard{display:flex;flex-direction:column;gap:.5rem}
-  .scard .ph{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top}
-  .scard.placeholder .ph{aspect-ratio:4/5;background:var(--cream);color:var(--teal);display:flex;align-items:center;justify-content:center;font-family:"IBM Plex Mono",monospace;font-weight:700;font-size:1.6rem;letter-spacing:.04em}
-  .sname{font-weight:700;font-size:clamp(1.05rem,3.2vw,1.3rem);line-height:1.1;margin:0}
-  .saff{font-family:"IBM Plex Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.05em;font-size:.66rem;margin:0}
-  .scard.more{align-items:flex-start;justify-content:center;border:1px solid var(--line);padding:1rem}
-  .scard.more .sname{font-style:italic;font-weight:400}
-  .cff-note{font-family:"IBM Plex Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.08em;font-size:.7rem;line-height:1.7;margin:1.8rem 0 0;padding-top:1.2rem;border-top:1px solid var(--line)}
+  .prow{display:flex;gap:clamp(.9rem,3vw,2rem);align-items:center;text-decoration:none;color:var(--teal);padding:1.4rem 0;border-top:2px solid var(--teal)}
+  .prow:last-child{border-bottom:2px solid var(--teal)}
+  a.prow:hover{background:rgba(30,95,90,.05)}
+  .ptime{flex:none;width:clamp(3.2rem,10vw,4.6rem);font-weight:700;font-size:clamp(1.05rem,2.8vw,1.3rem);line-height:1;letter-spacing:-.01em;opacity:.78}
+  .pmain{flex:1;min-width:0}
+  .ptit{display:block;font-weight:700;font-size:clamp(1.4rem,4.4vw,2rem);line-height:1.08;letter-spacing:-.015em}
+  .spk{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:clamp(1.15rem,3.2vw,1.4rem);margin-top:.55rem}
+  .mk{width:10px;height:1.05em;background:var(--teal);flex:none}
 
-  .ort-grid{display:grid;grid-template-columns:1fr;gap:1.5rem;margin-top:1.8rem;align-items:center}
-  .addr{font-weight:400;font-size:clamp(1.2rem,4vw,1.7rem);line-height:1.3;margin:0}
-  .addr .mono{display:block;font-family:"IBM Plex Mono",monospace;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;margin-top:.6rem}
+  .srooms{display:grid;grid-template-columns:1fr}
+  .sroom{display:block;text-decoration:none;color:var(--teal);padding:.95rem 0;border-top:1px solid var(--line-t);transition:background .15s}
+  .sroom:first-child{border-top:0;padding-top:.1rem}
+  .sroom:hover{background:rgba(30,95,90,.05)}
+  .sroom .rlab{display:block;font-weight:600;font-size:clamp(.92rem,2.3vw,1.02rem);letter-spacing:.04em;text-transform:uppercase;opacity:.62;margin-bottom:.4rem}
+  .sroom .rtit{display:block;font-weight:700;font-size:clamp(1.25rem,3.6vw,1.5rem);line-height:1.1;letter-spacing:-.01em}
+  .sroom .rspk{display:flex;align-items:center;gap:.5rem;font-weight:700;font-size:clamp(1.05rem,2.8vw,1.2rem);margin-top:.55rem;opacity:.92}
+  .sroom .rspk .mk{height:1em;width:9px}
+  .sroom.tbd .rtit{opacity:.4;font-style:italic;font-weight:400}
 
-  footer.foot{padding:clamp(2.4rem,6vw,3.5rem) clamp(1.25rem,5vw,3.5rem);background:var(--teal);color:var(--cream);border-top:1px solid rgba(244,241,234,.18)}
-  .foot-inner{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:1.5rem}
-  .credit{font-family:"IBM Plex Mono",monospace;font-weight:400;text-transform:uppercase;letter-spacing:.1em;font-size:.66rem;line-height:1.7;margin:0;padding-top:1.3rem;border-top:1px solid rgba(244,241,234,.18);max-width:60ch}
-  .mininav{display:flex;gap:.9rem 1.6rem;flex-wrap:wrap}
-  .mininav a{font-family:"IBM Plex Mono",monospace;font-weight:500;text-transform:uppercase;letter-spacing:.12em;font-size:.68rem;color:var(--cream);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px}
-  .mininav a:hover{border-bottom-color:var(--cream)}
+  /* Speaker (auf Teal) */
+  .sgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:3px}
+  .scard{display:flex;flex-direction:column}
+  .media{position:relative;width:100%;aspect-ratio:4/5;overflow:hidden}
+  .media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;filter:grayscale(1) contrast(1.05) brightness(.98);transition:filter .3s ease}
+  .media .ini{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:1rem;background:var(--cream);color:var(--teal);font-family:"Fraunces",serif;font-weight:700;font-size:2rem;line-height:1.1}
+  .scard.more .ini{font-size:1.15rem;letter-spacing:.01em}
+  .cap{padding:.85rem 0 .3rem}
+  .sname{font-weight:700;font-size:clamp(1.4rem,4.6vw,1.8rem);line-height:1.04;letter-spacing:-.015em;margin:0}
+  .saff{font-weight:600;font-size:clamp(.94rem,2.2vw,1.04rem);letter-spacing:.03em;text-transform:uppercase;margin:.4rem 0 0;color:var(--cream);opacity:.82}
+  @media (hover:hover){.scard:hover .media img{filter:none}}
+  @media (hover:none){.media img{filter:none}}
+
+  /* Eindrücke — randlose horizontale Bildleiste zum Wischen */
+  .gallery-sec{background:var(--cream);padding:clamp(2.2rem,5.5vw,4.2rem) 0;overflow:hidden}
+  .gallery{display:flex;gap:4px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 clamp(1rem,5vw,3.5rem);scrollbar-width:none}
+  .gallery::-webkit-scrollbar{display:none}
+  .gallery img{flex:none;width:min(80vw,460px);aspect-ratio:4/3;object-fit:cover;scroll-snap-align:center}
+
+  /* Ort & Tickets */
+  .ort-info{font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:clamp(.98rem,2.4vw,1.12rem);line-height:1.7;margin:0;color:var(--lt)}
+  .ort-cta{display:inline-flex;align-items:center;gap:.7rem;background:var(--cream);color:var(--teal);border:1px solid var(--cream);font-weight:800;font-variation-settings:"wght" 800,"wdth" 105;text-transform:uppercase;font-size:clamp(1.1rem,3.2vw,1.4rem);letter-spacing:.02em;text-decoration:none;padding:1em 1.7em;margin:1.7rem 0 0;transition:background .15s,color .15s}
+  .ort-cta:hover{background:transparent;color:var(--cream)}
+  .partners{margin-top:2.6rem;border-top:1px solid var(--line-c);padding-top:1.4rem}
+  .partners .lbl{font-weight:600;font-size:clamp(.88rem,2vw,.96rem);letter-spacing:.08em;text-transform:uppercase;margin:0 0 .8rem;color:var(--lt)}
+  .partners .row{font-weight:600;letter-spacing:.02em;font-size:clamp(.98rem,2.2vw,1.12rem);line-height:1.9;margin:0}
+
+  /* Footer */
+  .foot{background:var(--cream);color:var(--teal);padding:clamp(2rem,5vw,2.8rem) clamp(1rem,5vw,3.5rem)}
+  .foot-inner{max-width:1100px;margin:0 auto}
+  .mininav{display:flex;gap:1rem 1.8rem;flex-wrap:wrap}
+  .mininav a{font-weight:600;text-transform:uppercase;letter-spacing:.05em;font-size:clamp(.94rem,2vw,1.04rem);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:2px}
+  .mininav a:hover{border-bottom-color:var(--teal)}
 
   @media (prefers-reduced-motion: reduce){*{scroll-behavior:auto;transition:none}}
-  @media(min-width:680px){
-    .duo-cards{flex-direction:row;align-items:stretch}
+  @media(min-width:760px){
+    .duo{flex-direction:row;align-items:stretch}
+    .day-name{min-height:2.1em}
     .plus{display:flex;align-items:center}
+    .duo-cta{display:block;width:fit-content;margin:2rem auto 0;text-align:center;padding:1.1em 3.2em}
+    .tabs{width:fit-content}
+    .tabbtn{flex:none}
+    .srooms{grid-template-columns:repeat(4,minmax(0,1fr))}
+    .sroom{border-top:0;border-left:1px solid var(--line-t);padding:.2rem .9rem}
+    .sroom:first-child{border-left:0;padding-left:0}
     .sgrid{grid-template-columns:repeat(3,1fr)}
-    .ort-grid{grid-template-columns:1.3fr 1fr}
   }
 </style>
 </head>
 <body>
 
 <nav class="topnav">
-  <div class="brand"><span class="brand-mark">Open Summit &rsquo;26</span><span class="brand-tag" data-de="Das Gipfeltreffen der Freiheit" data-en="The Summit of Freedom">Das Gipfeltreffen der Freiheit</span></div>
+  <a class="brand" href="#top">
+    <span class="brand-box">Open Summit &rsquo;26</span>
+    <span class="brand-tag" data-de="Das Gipfeltreffen der Freiheit" data-en="The Summit of Freedom">Das Gipfeltreffen der Freiheit</span>
+  </a>
   <div class="nav-right">
     <button class="lang" aria-label="Switch to English">EN</button>
     <a class="nav-tickets" href="https://luma.com/c9osrlu7?utm_source=opensummit.berlin&utm_medium=website" data-de="Tickets" data-en="Tickets">Tickets</a>
   </div>
 </nav>
 
-<header class="hero">
-  <img class="bg" src="assets/hero-900.webp" srcset="assets/hero-900.webp 900w, assets/hero-1600.webp 1600w" sizes="100vw" width="1600" height="900" alt="Teilnehmende beim Open Summit" fetchpriority="high">
+<header class="hero" id="top">
+  <img class="bg" src="assets/hero-900.webp" srcset="assets/hero-900.webp 900w, assets/hero-1600.webp 1600w" sizes="100vw" width="1600" height="900" alt="Publikum beim Open Summit" fetchpriority="high">
   <div class="flood"></div>
   <div class="h-inner">
-    <p class="h-kicker" data-de="25.–26. September 2026 · Alte Münze, Berlin" data-en="25–26 September 2026 · Alte Münze, Berlin">25.–26. September 2026 · Alte Münze, Berlin</p>
-    <h1 class="h-title" data-de="Wer Veränderungswillen und Idealismus mitbringt, ist hier genau richtig." data-en="If you bring the will to change and a bit of idealism, you belong here.">Wer Veränderungswillen und Idealismus mitbringt, ist hier genau richtig.</h1>
-    <div class="h-cta-row">
-      <a class="cta" href="https://luma.com/c9osrlu7?utm_source=opensummit.berlin&utm_medium=website" data-de="Tickets sichern" data-en="Get tickets">Tickets sichern</a>
-      <p class="cta-note" data-de="Ein Ticket gilt für beide Tage." data-en="One ticket covers both days.">Ein Ticket gilt für beide Tage.</p>
-    </div>
+    <p class="h-kicker" data-de="25.–26. September 2026" data-en="25–26 September 2026">25.–26. September 2026</p>
+    <h1 class="h-lead" data-de="Wer <em>Veränderungswillen</em> und <em>Optimismus</em> mitbringt, ist hier genau richtig." data-en="If you bring <em>the will to change</em> and <em>optimism</em>, you belong here.">Wer <em>Veränderungswillen</em> und <em>Optimismus</em> mitbringt, ist hier genau richtig.</h1>
   </div>
 </header>
 
+<!-- Zwei Tage -->
 <section class="sec teal">
   <div class="inner">
-    <h2 class="duo-head" data-de="Ein Ticket, <em>zwei</em> Tage." data-en="One ticket, <em>two</em> days.">Ein Ticket, <em>zwei</em> Tage.</h2>
-    <div class="duo-cards">
-      <div class="duo-card">
-        <p class="duo-day" data-de="Freitag · 25. September" data-en="Friday · 25 September">Freitag · 25. September</p>
-        <p class="duo-name">College Freedom Forum</p>
-        <p class="duo-host" data-de="gemeinsam mit der Human Rights Foundation" data-en="together with the Human Rights Foundation">gemeinsam mit der Human Rights Foundation</p>
-        <p class="duo-desc" data-de="Aktivisten und Dissidenten aus aller Welt, fünf kurze Keynotes. Das erste College Freedom Forum in Europa." data-en="Activists and dissidents from around the world, five short keynotes. The first College Freedom Forum in Europe.">Aktivisten und Dissidenten aus aller Welt, fünf kurze Keynotes. Das erste College Freedom Forum in Europa.</p>
-        <p class="duo-cap" data-de="Begrenzt auf 200 Plätze" data-en="Limited to 200 seats">Begrenzt auf 200 Plätze</p>
-      </div>
+    <h2 class="s-title ff" data-de="Ein Wochenende. Zwei Events. Ein Ticket." data-en="One weekend. Two events. One ticket.">Ein Wochenende. Zwei Events. Ein Ticket.</h2>
+    <div class="duo">
+      <a class="day-card" href="#programm" data-go="day-fri">
+        <div class="day-date"><span class="dd-day" data-de="Freitag" data-en="Friday">Freitag</span><span class="dd-num">25.09</span></div>
+        <div class="day-body">
+          <p class="day-name">College Freedom Forum</p>
+          <p class="day-host" data-de="mit der Human Rights Foundation" data-en="with the Human Rights Foundation">mit der Human Rights Foundation</p>
+          <p class="day-desc" data-de="Aktivisten und Dissidenten aus aller Welt, fünf kurze Keynotes. Das erste College Freedom Forum in Europa." data-en="Activists and dissidents from around the world, five short keynotes. The first College Freedom Forum in Europe.">Aktivisten und Dissidenten aus aller Welt, fünf kurze Keynotes. Das erste College Freedom Forum in Europa.</p>
+          <p class="day-cap" data-de="Begrenzt auf 200 Plätze" data-en="Limited to 200 seats">Begrenzt auf 200 Plätze</p>
+        </div>
+      </a>
       <div class="plus" aria-hidden="true">+</div>
-      <div class="duo-card">
-        <p class="duo-day" data-de="Samstag · 26. September" data-en="Saturday · 26 September">Samstag · 26. September</p>
-        <p class="duo-name">Open Summit</p>
-        <p class="duo-host" data-de="von Prometheus - Heimat der Freiheit" data-en="by Prometheus - Heimat der Freiheit">von Prometheus - Heimat der Freiheit</p>
-        <p class="duo-desc" data-de="Keynotes, Workshops und Debatten — am Abend Essen und Party." data-en="Keynotes, workshops and debates — dinner and a party in the evening.">Keynotes, Workshops und Debatten — am Abend Essen und Party.</p>
-        <p class="duo-cap" data-de="Ganztägig · ab 09:30 Uhr" data-en="All day · from 09:30">Ganztägig · ab 09:30 Uhr</p>
-      </div>
+      <a class="day-card" href="#programm" data-go="day-sat">
+        <div class="day-date"><span class="dd-day" data-de="Samstag" data-en="Saturday">Samstag</span><span class="dd-num">26.09</span></div>
+        <div class="day-body">
+          <p class="day-name">Open<br>Summit</p>
+          <p class="day-host" data-de="Das Gipfeltreffen der Freiheit" data-en="The summit of freedom">Das Gipfeltreffen der Freiheit</p>
+          <p class="day-desc" data-de="Keynotes, Workshops und Debatten — am Abend Essen und Party. Ihr trefft auf junge Menschen mit ähnlichen Überzeugungen. Ihr lernt Menschen kennen, die Eure Mitstreiter für eine bessere Zukunft werden." data-en="Keynotes, workshops and debates — dinner and a party in the evening. You&rsquo;ll meet young people who share your convictions. You&rsquo;ll get to know the people who&rsquo;ll become your allies for a better future.">Keynotes, Workshops und Debatten — am Abend Essen und Party. Ihr trefft auf junge Menschen mit ähnlichen Überzeugungen. Ihr lernt Menschen kennen, die Eure Mitstreiter für eine bessere Zukunft werden.</p>
+        </div>
+      </a>
+    </div>
+    <a class="duo-cta" href="https://luma.com/c9osrlu7?utm_source=opensummit.berlin&utm_medium=website" data-de="Tickets" data-en="Tickets">Tickets</a>
+  </div>
+</section>
+
+<!-- Programm -->
+<section class="sec cream" id="programm">
+  <div class="inner">
+    <h2 class="s-title ff" data-de="Programm" data-en="Programme">Programm</h2>
+    <div class="tabs">
+      <button class="tabbtn" data-day="day-fri" data-de="Freitag" data-en="Friday">Freitag</button>
+      <button class="tabbtn active" data-day="day-sat" data-de="Samstag" data-en="Saturday">Samstag</button>
+    </div>
+
+    <div class="day active" id="day-sat">
+      <a class="prow" href="#"><span class="ptime">09:30</span><span class="pmain"><span class="ptit" data-de="Begrüßung" data-en="Welcome">Begrüßung</span><span class="spk"><span class="mk"></span>Prometheus</span></span></a>
+      <a class="prow" href="#"><span class="ptime">10:00</span><span class="pmain"><span class="ptit">Das Chinesische Jahrhundert</span><span class="spk"><span class="mk"></span><span data-de="Speaker folgt" data-en="Speaker to come">Speaker folgt</span></span></span></a>
+
+      <div class="prow split"><span class="ptime">11:00</span><span class="pmain"><div class="srooms">
+        <a class="sroom" href="#"><span class="rlab">Martineau Auditorium</span><span class="rtit">Digitalgeld &amp; Freiheit</span><span class="rspk"><span class="mk"></span>Coinbase</span></a>
+        <a class="sroom" href="#"><span class="rlab">Menger Galerie</span><span class="rtit" data-de="Kunst &amp; Kultur" data-en="Art &amp; culture">Kunst &amp; Kultur</span><span class="rspk"><span class="mk"></span><span data-de="Speaker folgt" data-en="Speaker to come">Speaker folgt</span></span></a>
+        <a class="sroom tbd" href="#"><span class="rlab">Ostrom Lounge</span><span class="rtit" data-de="Programm folgt" data-en="Programme to come">Programm folgt</span></a>
+        <a class="sroom tbd" href="#"><span class="rlab">Chydenius Foyer</span><span class="rtit" data-de="Programm folgt" data-en="Programme to come">Programm folgt</span></a>
+      </div></span></div>
+
+      <a class="prow" href="#"><span class="ptime">12:00</span><span class="pmain"><span class="ptit">Keynote</span><span class="spk"><span class="mk"></span>Ole von Beust</span></span></a>
+      <a class="prow" href="#"><span class="ptime">12:45</span><span class="pmain"><span class="ptit" data-de="Mittagessen — Innenhof &amp; Foodtruck" data-en="Lunch — courtyard &amp; food truck">Mittagessen — Innenhof &amp; Foodtruck</span></span></a>
+      <a class="prow" href="#"><span class="ptime">14:15</span><span class="pmain"><span class="ptit" data-de="Ostalgie — die große Debatte" data-en="Ostalgie — the big debate">Ostalgie — die große Debatte</span><span class="spk"><span class="mk"></span>Dirk Oschmann &nbsp;&amp;&nbsp; Marko Martin</span></span></a>
+
+      <div class="prow split"><span class="ptime">15:30</span><span class="pmain"><div class="srooms">
+        <a class="sroom" href="#"><span class="rlab">Martineau Auditorium</span><span class="rtit">Free-Market Environmentalism</span><span class="rspk"><span class="mk"></span><span data-de="Speaker folgt · engl." data-en="Speaker to come · EN">Speaker folgt · engl.</span></span></a>
+        <a class="sroom" href="#"><span class="rlab">Menger Galerie</span><span class="rtit" data-de="Liberalismus und Geopolitik" data-en="Liberalism and geopolitics">Liberalismus und Geopolitik</span><span class="rspk"><span class="mk"></span>Nikolai Ott</span></a>
+        <a class="sroom tbd" href="#"><span class="rlab">Ostrom Lounge</span><span class="rtit" data-de="Programm folgt" data-en="Programme to come">Programm folgt</span></a>
+        <a class="sroom tbd" href="#"><span class="rlab">Chydenius Foyer</span><span class="rtit" data-de="Programm folgt" data-en="Programme to come">Programm folgt</span></a>
+      </div></span></div>
+
+      <div class="prow split"><span class="ptime">16:30</span><span class="pmain"><div class="srooms">
+        <a class="sroom tbd" href="#"><span class="rlab">Martineau Auditorium</span><span class="rtit" data-de="Programm folgt" data-en="Programme to come">Programm folgt</span></a>
+        <a class="sroom" href="#"><span class="rlab">Menger Galerie</span><span class="rtit">Wohlstand für Junge</span><span class="rspk"><span class="mk"></span>Stefan Kolev</span></a>
+        <a class="sroom tbd" href="#"><span class="rlab">Ostrom Lounge</span><span class="rtit" data-de="Programm folgt" data-en="Programme to come">Programm folgt</span></a>
+        <a class="sroom tbd" href="#"><span class="rlab">Chydenius Foyer</span><span class="rtit" data-de="Programm folgt" data-en="Programme to come">Programm folgt</span></a>
+      </div></span></div>
+
+      <a class="prow" href="#"><span class="ptime">17:45</span><span class="pmain"><span class="ptit" data-de="Live-Podcast" data-en="Live podcast">Live-Podcast</span><span class="spk"><span class="mk"></span>based.</span></span></a>
+      <a class="prow" href="#"><span class="ptime">19:00</span><span class="pmain"><span class="ptit" data-de="Toast auf die Freiheit" data-en="A toast to freedom">Toast auf die Freiheit</span><span class="spk"><span class="mk"></span>Tom Palmer</span></span></a>
+      <a class="prow" href="#"><span class="ptime">19:30</span><span class="pmain"><span class="ptit" data-de="Dinner &amp; After-Party" data-en="Dinner &amp; after-party">Dinner &amp; After-Party</span><span class="spk"><span class="mk"></span>DJ Eugen Trichter</span></span></a>
+    </div>
+
+    <div class="day" id="day-fri">
+      <a class="prow" href="#"><span class="ptime">15:00</span><span class="pmain"><span class="ptit" data-de="College Freedom Forum — Auftakt" data-en="College Freedom Forum — opening">College Freedom Forum — Auftakt</span><span class="spk"><span class="mk"></span>Human Rights Foundation</span></span></a>
+      <a class="prow" href="#"><span class="ptime">15:30</span><span class="pmain"><span class="ptit" data-de="5 Keynotes im TED-Talk-Stil" data-en="5 TED-style keynotes">5 Keynotes im TED-Talk-Stil</span><span class="spk"><span class="mk"></span><span data-de="Aktivisten &amp; Dissidenten weltweit" data-en="Activists &amp; dissidents worldwide">Aktivisten &amp; Dissidenten weltweit</span></span></span></a>
+      <a class="prow" href="#"><span class="ptime">20:00</span><span class="pmain"><span class="ptit" data-de="Ausklang &amp; Übergang zum Open Summit" data-en="Wind-down &amp; bridge to the Open Summit">Ausklang &amp; Übergang zum Open Summit</span><span class="spk"><span class="mk"></span>Get-together</span></span></a>
     </div>
   </div>
 </section>
 
+<!-- Speaker (auf Teal) -->
+<section class="sec teal" id="speaker">
+  <div class="inner">
+    <h2 class="s-title ff" data-de="Speaker" data-en="Speakers">Speaker</h2>
+    <div class="sgrid">
+      <div class="scard"><div class="media"><img src="assets/speaker-palmer.webp" width="600" height="750" loading="lazy" alt="Tom Palmer"></div><div class="cap"><p class="sname">Tom Palmer</p><p class="saff">Atlas Network</p></div></div>
+      <div class="scard"><div class="media"><img src="assets/speaker-oschmann.webp" width="600" height="750" loading="lazy" alt="Dirk Oschmann"></div><div class="cap"><p class="sname">Dirk Oschmann</p><p class="saff">Universität Leipzig</p></div></div>
+      <div class="scard"><div class="media"><img src="assets/speaker-martin.webp" width="600" height="750" loading="lazy" alt="Marko Martin"></div><div class="cap"><p class="sname">Marko Martin</p><p class="saff" data-de="Schriftsteller" data-en="Author">Schriftsteller</p></div></div>
+      <div class="scard"><div class="media"><img src="assets/speaker-ott.webp" width="600" height="750" loading="lazy" alt="Nikolai Ott"></div><div class="cap"><p class="sname">Nikolai Ott</p><p class="saff">ævum quarterly</p></div></div>
+      <div class="scard"><div class="media"><div class="ini" aria-hidden="true">SK</div></div><div class="cap"><p class="sname">Stefan Kolev</p><p class="saff">Wohlstand für Junge</p></div></div>
+      <div class="scard more"><div class="media"><div class="ini" data-de="+ viele weitere folgen" data-en="+ many more to come">+ viele weitere folgen</div></div><div class="cap"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Eindrücke (nur Bilder) -->
 <section class="sec cream">
   <div class="inner">
-    <p class="quote" data-de="Damit ich wieder mal <b>erfahre</b>, dass ich nicht alleine bin mit dem, was mich besorgt, begeistert und bewegt." data-en="So I feel, just once more, that I&rsquo;m <b>not alone</b> with what worries, moves and inspires me.">Damit ich wieder mal <b>erfahre</b>, dass ich nicht alleine bin mit dem, was mich besorgt, begeistert und bewegt.</p>
-    <p class="quote-by" data-de="— warum Teilnehmer:innen zum Open Summit kommen" data-en="— why people come to the Open Summit">— warum Teilnehmer:innen zum Open Summit kommen</p>
-    <div class="pastgrid">
+    <div class="gallery">
       <img src="assets/past-female.webp" width="760" height="507" loading="lazy" alt="Open Summit — Speakerin am Mikrofon">
       <img src="assets/past-panel-1.webp" width="760" height="507" loading="lazy" alt="Open Summit — Panel">
       <img src="assets/past-mic.webp" width="760" height="507" loading="lazy" alt="Open Summit — Wortbeitrag aus dem Publikum">
@@ -208,60 +305,14 @@
   </div>
 </section>
 
-<section class="sec teal" id="programm">
-  <div class="inner">
-    <h2 class="s-title" data-de="Programm" data-en="Programme">Programm</h2>
-    <div class="tabs">
-      <button class="tabbtn active" data-day="day-sat" data-de="Samstag · Open Summit" data-en="Saturday · Open Summit">Samstag · Open Summit</button>
-      <button class="tabbtn" data-day="day-fri" data-de="Freitag · CFF" data-en="Friday · CFF">Freitag · CFF</button>
-    </div>
-    <p class="pnote" data-de="Klick auf einen Punkt für Details — das vollständige Programm folgt." data-en="Tap any item for details — full programme coming soon.">Klick auf einen Punkt für Details — das vollständige Programm folgt.</p>
-
-    <div class="day active" id="day-sat">
-      <a class="prow" href="#"><span class="ptime">09:30</span><span class="pmain"><p class="ptitle" data-de="Begrüßung" data-en="Welcome">Begrüßung</p><p class="pspk">Prometheus</p></span><span class="parrow">→</span></a>
-      <a class="prow" href="#"><span class="ptime">10:00</span><span class="pmain"><p class="ptitle">Das Chinesische Jahrhundert</p><p class="pspk">Keynote</p></span><span class="parrow">→</span></a>
-      <a class="prow" href="#"><span class="ptime">14:15</span><span class="pmain"><p class="ptitle" data-de="Ostalgie — die große Debatte" data-en="Ostalgie — the big debate">Ostalgie — die große Debatte</p><p class="pspk">Dirk Oschmann · Marko Martin</p></span><span class="parrow">→</span></a>
-      <a class="prow" href="#"><span class="ptime">15:30</span><span class="pmain"><p class="ptitle">Der Liberalismus im Zeitalter der Geopolitik</p><p class="pspk">Workshop · Nikolai Ott</p></span><span class="parrow">→</span></a>
-      <a class="prow" href="#"><span class="ptime">16:30</span><span class="pmain"><p class="ptitle">Wohlstand für Junge</p><p class="pspk">Stefan Kolev</p></span><span class="parrow">→</span></a>
-      <a class="prow" href="#"><span class="ptime">19:00</span><span class="pmain"><p class="ptitle">Toast auf die Freiheit</p><p class="pspk">Tom Palmer</p></span><span class="parrow">→</span></a>
-      <a class="prow" href="#"><span class="ptime">19:30</span><span class="pmain"><p class="ptitle" data-de="Dinner &amp; After-Party" data-en="Dinner &amp; after-party">Dinner &amp; After-Party</p><p class="pspk">DJ Eugen Trichter</p></span><span class="parrow">→</span></a>
-    </div>
-
-    <div class="day" id="day-fri">
-      <a class="prow" href="#"><span class="ptime">15:00</span><span class="pmain"><p class="ptitle" data-de="College Freedom Forum — Auftakt" data-en="College Freedom Forum — opening">College Freedom Forum — Auftakt</p><p class="pspk">Human Rights Foundation</p></span><span class="parrow">→</span></a>
-      <a class="prow" href="#"><span class="ptime">15:30</span><span class="pmain"><p class="ptitle" data-de="5 Keynotes im TED-Talk-Stil" data-en="5 TED-style keynotes">5 Keynotes im TED-Talk-Stil</p><p class="pspk" data-de="Aktivisten &amp; Dissidenten weltweit" data-en="Activists &amp; dissidents worldwide">Aktivisten &amp; Dissidenten weltweit</p></span><span class="parrow">→</span></a>
-      <a class="prow" href="#"><span class="ptime">20:00</span><span class="pmain"><p class="ptitle" data-de="Ausklang &amp; Übergang zum Open Summit" data-en="Wind-down &amp; bridge to the Open Summit">Ausklang &amp; Übergang zum Open Summit</p><p class="pspk">Get-together</p></span><span class="parrow">→</span></a>
-    </div>
-  </div>
-</section>
-
-<section class="sec cream" id="speaker">
-  <div class="inner">
-    <h2 class="s-title" data-de="Speaker" data-en="Speakers">Speaker</h2>
-    <div class="sgrid">
-      <div class="scard"><img class="ph" src="assets/speaker-palmer.webp" width="600" height="750" loading="lazy" alt="Tom Palmer"><p class="sname">Tom Palmer</p><p class="saff">Atlas Network</p></div>
-      <div class="scard"><img class="ph" src="assets/speaker-oschmann.webp" width="600" height="750" loading="lazy" alt="Dirk Oschmann"><p class="sname">Dirk Oschmann</p><p class="saff">Universität Leipzig</p></div>
-      <div class="scard"><img class="ph" src="assets/speaker-martin.webp" width="600" height="750" loading="lazy" alt="Marko Martin"><p class="sname">Marko Martin</p><p class="saff" data-de="Schriftsteller" data-en="Author">Schriftsteller</p></div>
-      <div class="scard"><img class="ph" src="assets/speaker-ott.webp" width="600" height="750" loading="lazy" alt="Nikolai Ott"><p class="sname">Nikolai Ott</p><p class="saff">aevum quarterly</p></div>
-      <div class="scard placeholder"><div class="ph">SK</div><p class="sname">Stefan Kolev</p><p class="saff">Wohlstand für Junge</p></div>
-      <div class="scard more"><p class="sname" data-de="+ viele weitere folgen" data-en="+ many more to come">+ viele weitere folgen</p></div>
-    </div>
-    <p class="cff-note" data-de="Freitag · College Freedom Forum: Die Speaker stehen bald fest — gemeinsam mit der Human Rights Foundation." data-en="Friday · College Freedom Forum: speakers confirmed soon — together with the Human Rights Foundation.">Freitag · College Freedom Forum: Die Speaker stehen bald fest — gemeinsam mit der Human Rights Foundation.</p>
-  </div>
-</section>
-
+<!-- Ort & Tickets -->
 <section class="sec teal" id="ort">
   <div class="inner">
-    <h2 class="s-title" data-de="Ort &amp; Tickets" data-en="Venue &amp; tickets">Ort &amp; Tickets</h2>
-    <div class="ort-grid">
-      <p class="addr">Alte Münze<span class="mono">Haus 3 · Am Krögel 2 · 10179 Berlin</span></p>
-      <div>
-        <a class="cta" href="https://luma.com/c9osrlu7?utm_source=opensummit.berlin&utm_medium=website" data-de="Tickets sichern" data-en="Get tickets">Tickets sichern</a>
-        <p class="cta-note" style="margin-top:.7rem" data-de="College Freedom Forum: begrenzt auf 200 Plätze." data-en="College Freedom Forum: limited to 200 seats.">College Freedom Forum: begrenzt auf 200 Plätze.</p>
-      </div>
-    </div>
+    <h2 class="s-title ff" data-de="Alte Münze" data-en="Alte Münze">Alte Münze</h2>
+    <p class="ort-info">Haus 3 · Am Krögel 2 · 10179 Berlin</p>
+    <a class="ort-cta" href="https://luma.com/c9osrlu7?utm_source=opensummit.berlin&utm_medium=website" data-de="Tickets" data-en="Tickets">Tickets</a>
     <div class="partners">
-      <p class="lbl" data-de="Partner &amp; Förderer (Auswahl, 2025)" data-en="Partners &amp; supporters (selection, 2025)">Partner &amp; Förderer (Auswahl, 2025)</p>
+      <p class="lbl" data-de="Partner &amp; Förderer" data-en="Partners &amp; supporters">Partner &amp; Förderer</p>
       <p class="row">based. · Coinbase · Atlas Network · FEE · Epicenter · JTI · RCDS · LHG · ProAurum</p>
     </div>
   </div>
@@ -277,7 +328,6 @@
       <a href="#" data-de="Impressum" data-en="Imprint">Impressum</a>
       <a href="#" data-de="Datenschutz" data-en="Privacy">Datenschutz</a>
     </nav>
-    <p class="credit" data-de="Veranstaltet von Prometheus - Heimat der Freiheit · gemeinsam mit der Human Rights Foundation" data-en="Hosted by Prometheus - Heimat der Freiheit · together with the Human Rights Foundation">Veranstaltet von Prometheus - Heimat der Freiheit · gemeinsam mit der Human Rights Foundation</p>
   </div>
 </footer>
 
@@ -299,6 +349,15 @@
         b.classList.add('active');document.getElementById(b.getAttribute('data-day')).classList.add('active');
       });
     });
+    document.querySelectorAll('.day-card[data-go]').forEach(function(c){c.addEventListener('click',function(){var d=c.getAttribute('data-go');document.querySelectorAll('.tabbtn').forEach(function(x){x.classList.remove('active');});document.querySelectorAll('.day').forEach(function(x){x.classList.remove('active');});var b=document.querySelector('.tabbtn[data-day="'+d+'"]');if(b)b.classList.add('active');var p=document.getElementById(d);if(p)p.classList.add('active');});});
+    var nav=document.querySelector('.topnav');var lastY=window.scrollY||0;
+    window.addEventListener('scroll',function(){
+      var y=window.scrollY;
+      if(y<=80){nav.classList.remove('nav-hidden');}
+      else if(y>lastY+4){nav.classList.add('nav-hidden');}
+      else if(y<lastY-4){nav.classList.remove('nav-hidden');}
+      lastY=y;
+    },{passive:true});
   })();
 </script>
 </body>
