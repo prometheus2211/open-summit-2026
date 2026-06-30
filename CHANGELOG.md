@@ -2,6 +2,9 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-06-30 · Florian Hartjen (mit Cowork)
+- Erste öffentliche Version finalisiert; unbestätigten Saturday-Keynote-Namen („Ole von Beust") auf „Speaker folgt" gesetzt, bis bestätigt
+
 ## 2026-06-29 · Florian Hartjen (mit Cowork)
 - Live-Version auf V5 umgestellt (Marius-Framework + FH-Wortmarke „Open Summit '26", Mint-Akzent statt Orange)
 - Day-Cards verlinken jetzt auf den jeweiligen Programmtag (CFF → Freitag, Open Summit → Samstag)
