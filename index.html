@@ -69,13 +69,12 @@
   .nav-tickets:hover{background:transparent;color:var(--cream)}
 
   /* Hero */
-  .hero{position:relative;overflow:hidden;background:var(--teal);min-height:100svh;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(4rem,12vw,6rem) clamp(1rem,5vw,3.5rem) clamp(2.4rem,6vw,3.6rem)}
+  .hero{position:relative;overflow:hidden;background:var(--teal);min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(4rem,12vw,6rem) clamp(1rem,5vw,3.5rem) clamp(2.4rem,6vw,3.6rem)}
   .hero .bg{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;object-position:center 28%;filter:contrast(1.03) brightness(.82)}
-  .hero .flood{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(30,95,90,.14) 0%,rgba(30,95,90,.06) 32%,rgba(30,95,90,.86) 74%,rgba(30,95,90,1) 100%)}
+  .hero .flood{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(30,95,90,.12) 0%,rgba(30,95,90,.06) 30%,rgba(30,95,90,.62) 60%,rgba(30,95,90,.94) 80%,rgba(30,95,90,1) 100%)}
   .h-inner{position:relative;z-index:2;max-width:1100px;margin:0 auto;width:100%}
-  .h-top{position:relative;z-index:2;max-width:1100px;margin:0 auto;width:100%}
-  .h-kicker{display:flex;align-items:center;gap:.7em;font-weight:700;font-size:clamp(.94rem,2.4vw,1.1rem);letter-spacing:.08em;text-transform:uppercase;color:var(--teal-deep);margin:0}
-  .h-kicker::before{content:"";flex:none;width:2.4em;height:2px;background:var(--teal-deep)}
+  .h-kicker{display:flex;align-items:center;gap:.7em;font-weight:700;font-size:clamp(.94rem,2.4vw,1.1rem);letter-spacing:.08em;text-transform:uppercase;color:var(--cream);margin:0 0 1.2rem;text-shadow:0 1px 12px rgba(17,52,47,.65),0 0 2px rgba(17,52,47,.55)}
+  .h-kicker::before{content:"";flex:none;width:2.4em;height:2px;background:var(--acc)}
   .h-lead{font-weight:700;font-variation-settings:"wght" 700,"wdth" 102;font-size:clamp(2.5rem,8.5vw,5rem);line-height:.98;letter-spacing:-.025em;margin:0;max-width:16ch}
   .h-lead em{font-style:normal;color:var(--acc)}
 
@@ -195,8 +194,8 @@
 <header class="hero" id="top">
   <img class="bg" src="assets/hero-900.webp" srcset="assets/hero-900.webp 900w, assets/hero-1600.webp 1600w" sizes="100vw" width="1600" height="900" alt="Publikum beim Open Summit" fetchpriority="high">
   <div class="flood"></div>
-  <div class="h-top"><p class="h-kicker" data-de="25.–26. September 2026" data-en="25–26 September 2026">25.–26. September 2026</p></div>
   <div class="h-inner">
+    <p class="h-kicker" data-de="25.–26. September 2026" data-en="25–26 September 2026">25.–26. September 2026</p>
     <h1 class="h-lead" data-de="Wer <em>Veränderungswillen</em> und <em>Optimismus</em> mitbringt, ist hier genau richtig." data-en="If you bring <em>the will to change</em> and <em>optimism</em>, you belong here.">Wer <em>Veränderungswillen</em> und <em>Optimismus</em> mitbringt, ist hier genau richtig.</h1>
   </div>
 </header>

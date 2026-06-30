@@ -6,7 +6,7 @@ Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunte
 - Live-Version auf V5 umgestellt (Marius-Framework + FH-Wortmarke „Open Summit '26", Mint-Akzent statt Orange)
 - Day-Cards verlinken jetzt auf den jeweiligen Programmtag (CFF → Freitag, Open Summit → Samstag)
 - Einheitlicher Hover für alle Ticket-Buttons; Hero-Datum ohne Box
-- Hero-Datum jetzt dunkler Text (Deep-Teal) über dem hellen Bild, nach oben gesetzt — bessere Lesbarkeit
+- Hero-Datum: creme mit dezentem Schatten im dunklen unteren Bildbereich — verlässlich lesbar, Bild oben bleibt hell
 
 ## 2026-06-26 · Florian Hartjen (mit Cowork)
 - Erste Version live auf GitHub Pages (prometheus2211.github.io/open-summit-2026)
