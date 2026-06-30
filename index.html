@@ -71,10 +71,10 @@
   /* Hero */
   .hero{position:relative;overflow:hidden;background:var(--teal);min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(4rem,12vw,6rem) clamp(1rem,5vw,3.5rem) clamp(2.4rem,6vw,3.6rem)}
   .hero .bg{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;object-position:center 28%;filter:contrast(1.03) brightness(.82)}
-  .hero .flood{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(30,95,90,0) 0%,rgba(30,95,90,.14) 32%,rgba(30,95,90,.85) 52%,rgba(30,95,90,1) 64%)}
+  .hero .flood{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(30,95,90,0) 0%,rgba(30,95,90,.05) 34%,rgba(30,95,90,.5) 64%,rgba(30,95,90,.9) 83%,rgba(30,95,90,1) 94%)}
   .h-inner{position:relative;z-index:2;max-width:1100px;margin:0 auto;width:100%}
-  .h-kicker{display:flex;align-items:center;gap:.7em;font-weight:700;font-size:clamp(1rem,2.8vw,1.25rem);letter-spacing:.09em;text-transform:uppercase;color:var(--cream);margin:0 0 1.2rem}
-  .h-kicker::before{content:"";flex:none;width:2.4em;height:2px;background:var(--acc)}
+  .h-kicker{display:flex;align-items:center;gap:.85em;font-weight:600;font-size:clamp(1rem,2.9vw,1.25rem);letter-spacing:.14em;text-transform:uppercase;color:var(--cream);margin:1.6rem 0 0}
+  .h-kicker::before{content:"";flex:none;width:2.6em;height:2px;background:var(--acc)}
   .h-lead{font-weight:700;font-variation-settings:"wght" 700,"wdth" 102;font-size:clamp(2.5rem,8.5vw,5rem);line-height:.98;letter-spacing:-.025em;margin:0;max-width:16ch}
   .h-lead em{font-style:normal;color:var(--acc)}
 
@@ -195,8 +195,8 @@
   <img class="bg" src="assets/hero-900.webp" srcset="assets/hero-900.webp 900w, assets/hero-1600.webp 1600w" sizes="100vw" width="1600" height="900" alt="Publikum beim Open Summit" fetchpriority="high">
   <div class="flood"></div>
   <div class="h-inner">
-    <p class="h-kicker" data-de="25.–26. September 2026" data-en="25–26 September 2026">25.–26. September 2026</p>
     <h1 class="h-lead" data-de="Wer <em>Veränderungswillen</em> und <em>Optimismus</em> mitbringt, ist hier genau richtig." data-en="If you bring <em>the will to change</em> and <em>optimism</em>, you belong here.">Wer <em>Veränderungswillen</em> und <em>Optimismus</em> mitbringt, ist hier genau richtig.</h1>
+    <p class="h-kicker" data-de="25.–26. September 2026 · Berlin" data-en="25–26 September 2026 · Berlin">25.–26. September 2026 · Berlin</p>
   </div>
 </header>
 
