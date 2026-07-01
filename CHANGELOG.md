@@ -2,6 +2,11 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-07-01 · Florian Hartjen (mit Cowork)
+- Dinner & After-Party: „DJ Eugen Trichter" → „DJ folgt"
+- 09:30 „Begrüßung" → „Cornerstones" (Speaker folgen)
+- 11:00 Workshop „Digitalgeld & Freiheit": „Coinbase" → „Speaker folgt"
+
 ## 2026-06-30 · Florian Hartjen (mit Cowork)
 - Erste öffentliche Version finalisiert
 - Stefan Kolev: Foto ergänzt (Speaker-Raster vollständig)
