@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-01 · Clemens Acton (mit Cowork)
+- Raumnamen umbenannt: Martineau Auditorium → Friedman Auditorium, Menger Galerie → Bastiat Galerie, Ostrom Lounge → Wollstonecraft Lounge, Chydenius Foyer → Ortega Foyer
+
+
+## 2026-07-01 · Clemens Acton (mit Cowork)
 - Speaker-Reihenfolge auf der Startseite geändert: Beust, Martin, Oschmann, Tilmann, Palmer, Schulze Heuling, Kolev, Ott, Shkolnyi
 
 
