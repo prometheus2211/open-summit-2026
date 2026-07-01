@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-01 · Clemens Acton (mit Cowork)
+- Live-Podcast (17:45): "based." als eigenes Speaker-Profil angelegt (Podcast von Benjamin Scherp & Dominik Steffens, Cover-Foto), statt reinem Freitext verlinkt
+
+
+## 2026-07-01 · Clemens Acton (mit Cowork)
 - Raumnamen umbenannt: Martineau Auditorium → Friedman Auditorium, Menger Galerie → Bastiat Galerie, Ostrom Lounge → Wollstonecraft Lounge, Chydenius Foyer → Ortega Foyer
 
 
