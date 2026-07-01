@@ -3,7 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-06-30 · Florian Hartjen (mit Cowork)
-- Erste öffentliche Version finalisiert; unbestätigten Saturday-Keynote-Namen („Ole von Beust") auf „Speaker folgt" gesetzt, bis bestätigt
+- Erste öffentliche Version finalisiert
+- Stefan Kolev: Foto ergänzt (Speaker-Raster vollständig)
+- Ole von Beust bestätigt → als Keynote (12:00) + Speaker-Karte mit Foto eingesetzt
 
 ## 2026-06-29 · Florian Hartjen (mit Cowork)
 - Live-Version auf V5 umgestellt (Marius-Framework + FH-Wortmarke „Open Summit '26", Mint-Akzent statt Orange)
