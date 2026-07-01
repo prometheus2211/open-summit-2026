@@ -7,6 +7,7 @@ Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunte
 - Stefan Kolev: Foto ergänzt (Speaker-Raster vollständig)
 - Ole von Beust bestätigt → als Keynote (12:00) + Speaker-Karte mit Foto eingesetzt
 - Domain opensummit.berlin verbunden — DNS bei webgo auf GitHub Pages (A/AAAA + www), CNAME im Repo gesetzt
+- Website auf **Astro** umgestellt: Speaker + Programm als Markdown-Inhalte, klickbare Detailseiten (Programm & Speaker), Hamburger-Menü. Gebaut & deployed; Domain und Design unverändert.
 
 ## 2026-06-29 · Florian Hartjen (mit Cowork)
 - Live-Version auf V5 umgestellt (Marius-Framework + FH-Wortmarke „Open Summit '26", Mint-Akzent statt Orange)
