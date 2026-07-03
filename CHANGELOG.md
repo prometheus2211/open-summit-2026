@@ -2,6 +2,12 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-07-03 ·  (mit Cowork)
+- 11:00 Wollstonecraft Lounge: „Politische Kommunikation" mit Sohrab Barakzai (Bio/Foto folgen)
+- 15:30 Ortega Foyer: „Thema folgt" mit Tjark Melchert (Bio/Foto folgen)
+- 16:30 Wollstonecraft Lounge: „Innovation" mit Frauke Stehr (Bio/Foto folgen)
+
+
 ## 2026-07-01 · Clemens Acton (mit Cowork)
 - Speaker "based." umbenannt in "based. mit Benjamin Scherp und Dominik Steffens"
 
