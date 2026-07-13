@@ -3,6 +3,11 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
+- Bugfix: lange Wörter in Programmtiteln (z. B. „gemeinwohlorientierten") liefen in die Nachbarspalte über — overflow-wrap ergänzt (reiner Zeilenumbruch-Fix, keine Design-Änderung)
+- Speaker-Reihenfolge auf der Startseite aktualisiert: Beust, Martin, Oschmann, Tilmann, Palmer, Schulze Heuling, Kolev, Stehr, Melchert, Shkolnyi, Ott, Barakzai, based.
+
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
 - Tjark Melchert: Foto ergänzt (aus dem 2026/Speaker/Fotos-Ordner)
 
 
