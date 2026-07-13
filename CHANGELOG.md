@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
+- Bild-Slider: 2 weitere Fotos aus dem Archiv (Open Summit 2025) ergänzt — Nahaufnahmen zu zweit/dritt beim Networking, jetzt 11 Bilder
+
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
 - Bild-Slider: die beiden posierten Zweier-Fotos (Empfangstresen, Gruppenfoto mit Arm um die Schulter) wieder entfernt — jetzt 9 Bilder
 
 
