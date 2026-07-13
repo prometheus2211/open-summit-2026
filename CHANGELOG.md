@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
+- Bild-Slider: 4 weitere Fotos aus dem Prometheus-Archiv (Open Summit 2024) ergänzt — Nahaufnahmen zu zweit/dritt, gemischt mit den bestehenden Gruppenaufnahmen (jetzt 11 Bilder)
+
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
 - Bild-Slider "Eindrücke" erweitert: 4 zusätzliche Fotos aus vergangenen Open Summits ergänzt (waren im Projekt vorhanden, aber noch nicht eingebunden) — jetzt 7 statt 3 Bilder
 
 
