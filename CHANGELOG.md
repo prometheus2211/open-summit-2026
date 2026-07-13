@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
+- Tjark Melchert: Foto ergänzt (aus dem 2026/Speaker/Fotos-Ordner)
+
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
 - Frauke Stehr (16:30 Wollstonecraft Lounge): vollständiger Workshop-Titel „Innovation für alle: Wie Market Shaping gemeinwohlorientierten Fortschritt stärkt", Beschreibung, Foto und Kurzbio ergänzt
 
 
