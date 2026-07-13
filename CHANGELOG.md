@@ -2,6 +2,10 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-07-13 ·  (mit Cowork)
+- Tjark Melchert: Zugehörigkeit (Politischer Aktivist) und Kurzbio ergänzt. Foto folgt noch (als Datei-Upload statt Inline-Bild nötig)
+
+
 ## 2026-07-03 ·  (mit Cowork)
 - 11:00 Wollstonecraft Lounge: „Politische Kommunikation" mit Sohrab Barakzai (Bio/Foto folgen)
 - 15:30 Ortega Foyer: „Thema folgt" mit Tjark Melchert (Bio/Foto folgen)
