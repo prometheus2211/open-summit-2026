@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
+- Wollstonecraft Lounge (Sa 15:30): Speakerin Zoé von Finck eingetragen (Bild/Bio/Titel folgen noch)
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
 - Cornerstones (Sa 09:30): Speaker Helena Quis, Alexander Albrecht und Marius Drozdzewski eingetragen (Bio/Foto folgen noch)
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
