@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
+- Stefan Kolev (Bastiat Galerie, Sa 16:30): Titel zu „Autorenlesung ‚Wohlstand für Junge‘“ präzisiert
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
 - Sohrab Barakzai (Wollstonecraft Lounge, Sa 11:00): Foto, Bio und Session-Titel „Die ersten 10.000 Follower“ ergänzt
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
