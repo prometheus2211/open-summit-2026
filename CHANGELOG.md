@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
+- Ortega Foyer (Sa 11:00): Thema „Neue Rechte Medien“ eingetragen, Speaker folgt noch
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
 - Stefan Kolev (Bastiat Galerie, Sa 16:30): Titel zu „Autorenlesung ‚Wohlstand für Junge‘“ präzisiert
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
