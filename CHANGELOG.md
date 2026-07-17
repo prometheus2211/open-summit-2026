@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
+- Speaker-Raster neu sortiert; Kachel-Text zu „+ weitere folgen“ gekürzt
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
 - Zoé von Finck (Wollstonecraft Lounge, Sa 15:30): Foto (Foto: Laurence Chaperon), Bio und Workshop-Titel „Familie ist da, wo Familie sein will.“ ergänzt
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
