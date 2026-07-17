@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
+- Speaker-Raster erneut umsortiert (Finck nach Palmer, Schulze Heuling nach Shkolnyi)
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
 - Speaker-Raster: Frauke Stehr und Zoé von Finck getauscht
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
