@@ -2,6 +2,9 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-07-19 · Clemens Schneider
+- Speaker Helena Quis (EDINA) aktualisiert: Bio, Affiliation und Portraitfoto ergänzt
+
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Friedman Auditorium: „Digitalgeld & Freiheit“ (11:00) und „Free-Market Environmentalism“ (15:30) gestrichen; 15:30 jetzt mit Speakerin Lia Grahl (Thema/Bio/Foto folgen), 11:00 zurück auf „Programm folgt“
 - Zoé von Finck: Zusatz zu „Podcasterin“ geändert
