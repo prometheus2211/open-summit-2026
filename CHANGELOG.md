@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-07-19 · Clemens Schneider
+- Speaker-Reihenfolge auf der Startseite aktualisiert
+
+
+## 2026-07-19 · Clemens Schneider
 - Speaker Helena Quis (EDINA) aktualisiert: Bio, Affiliation und Portraitfoto ergänzt
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
