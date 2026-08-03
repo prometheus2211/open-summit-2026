@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-08-03 · Clemens Acton (mit Cowork)
+- Frauke Stehrs Workshop „Innovation für alle“ von Sa 16:30 Wollstonecraft Lounge auf Sa 11:00 Friedman Auditorium verlegt (10:00 dort war bereits mit Benner-Keynote belegt); alter Slot 16:30 Wollstonecraft Lounge zurück auf „Programm folgt“
+
+## 2026-08-03 · Clemens Acton (mit Cowork)
 - Thorsten Benner: Kurzbeschreibung zu „Global Public Policy Institute“ geändert
 - „Das Chinesische Jahrhundert“ (Sa 10:00): Lead „Thorsten Benner im Gespräch mit Clemens Schneider“ und ausführliche Beschreibung ergänzt
 
