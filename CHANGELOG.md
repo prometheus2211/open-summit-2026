@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-08-03 · Clemens Acton (mit Cowork)
+- Thorsten Benner: Kurzbeschreibung zu „Global Public Policy Institute“ geändert
+- „Das Chinesische Jahrhundert“ (Sa 10:00): Lead „Thorsten Benner im Gespräch mit Clemens Schneider“ und ausführliche Beschreibung ergänzt
+
+## 2026-08-03 · Clemens Acton (mit Cowork)
 - College Freedom Forum, „5 Keynotes im TED-Talk-Stil“ (Fr 15:30): Namen der Speaker ergänzt (Tanele Maseko, Pedro Urruchurtu, Zohreh Abdollahkhani, Steven Kefas, Zumretay Arkin [angefragt])
 
 ## 2026-08-03 · Clemens Acton (mit Cowork)
