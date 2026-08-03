@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-08-03 · Clemens Acton (mit Cowork)
+- College Freedom Forum, „5 Keynotes im TED-Talk-Stil“ (Fr 15:30): Namen der Speaker ergänzt (Tanele Maseko, Pedro Urruchurtu, Zohreh Abdollahkhani, Steven Kefas, Zumretay Arkin [angefragt])
+
+## 2026-08-03 · Clemens Acton (mit Cowork)
 - „Das Chinesische Jahrhundert“ (Sa 10:00, Keynote): Speaker Thorsten Benner mit Foto und Bio ergänzt, im Speaker-Raster zwischen Palmer und Finck einsortiert
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
