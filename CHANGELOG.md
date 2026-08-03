@@ -2,6 +2,11 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-08-03 · Clemens Schneider
+- Workshop-Titel Ilia Shkolnyi gekürzt (Untertitel in Beschreibung verschoben)
+- Neuer Speaker Piotr Oliński ergänzt, übernimmt Workshop Sa 16:30 Friedman Auditorium (Titel folgt)
+
+
 ## 2026-08-03 · Clemens Acton (mit Cowork)
 - Frauke Stehrs Workshop „Innovation für alle“ von Sa 16:30 Wollstonecraft Lounge auf Sa 11:00 Friedman Auditorium verlegt (10:00 dort war bereits mit Benner-Keynote belegt); alter Slot 16:30 Wollstonecraft Lounge zurück auf „Programm folgt“
 
