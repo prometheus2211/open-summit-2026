@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-08-05 · Clemens Acton (mit Cowork)
+- Piotr Oliński (Friedman Auditorium, Sa 16:30): Foto, Bio und Workshop-Titel „Wie gelingt Migrationspolitik?“ ergänzt, im Speaker-Raster zwischen Quis und Ott einsortiert
+
+## 2026-08-05 · Clemens Acton (mit Cowork)
 - Ilia Shkolnyi (Bastiat Galerie, Sa 11:00): Titel zu „Abschieben, wer sich an die Regeln hält?“ geändert, ausführliche Beschreibung ergänzt
 - Piotr Oliński als Speaker (Friedman Auditorium, Sa 16:30) übernommen (parallel von Kolleg:in ergänzt)
 
