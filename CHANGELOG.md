@@ -2,6 +2,9 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-08-07 · Clemens Acton (mit Cowork)
+- „Neue Rechte Medien“ (Ortega Foyer, Sa 11:00): Beschreibung ergänzt, Speaker folgt weiterhin
+
 ## 2026-08-05 · Clemens Acton (mit Cowork)
 - Piotr Oliński (Friedman Auditorium, Sa 16:30): Foto, Bio und Workshop-Titel „Wie gelingt Migrationspolitik?“ ergänzt, im Speaker-Raster zwischen Quis und Ott einsortiert
 
