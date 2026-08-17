@@ -1,3 +1,7 @@
+## 2026-08-17 · Clemens Schneider
+- Lia Grahl aus Programm und Speaker-Liste entfernt (Slot Sa 15:30 Friedman Auditorium wieder offen)
+- Piotr Oliński: Bio, Affiliation (FOR) und Portrait ergänzt
+
 # Änderungsprotokoll — Open Summit 2026 Website
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
