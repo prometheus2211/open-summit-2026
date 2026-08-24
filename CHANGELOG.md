@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-08-24 · Clemens Acton (mit Cowork)
+- Marius Drozdzewski (Cornerstones, Sa 09:30): Foto und Bio ergänzt
+
+## 2026-08-24 · Clemens Acton (mit Cowork)
 - CFF-Speaker: Kurzbeschreibungen gekürzt — Pedro Urruchurtu „Vente Venezuela“, Steven Kefas „Journalist, Nigeria“, Tanele Maseko „Menschenrechtsaktivistin, Swaziland“, Zohreh Abdollahkhani „Human Rights for Sports, Iran“ (Dr.-Titel entfernt)
 - Speaker-Raster: Abdollahkhani, Maseko, Urruchurtu, Kefas nach Shkolnyi und vor Schulze Heuling einsortiert
 
