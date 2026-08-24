@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-08-24 · Clemens Acton (mit Cowork)
+- CFF-Speaker: Kurzbeschreibungen gekürzt — Pedro Urruchurtu „Vente Venezuela“, Steven Kefas „Journalist, Nigeria“, Tanele Maseko „Menschenrechtsaktivistin, Swaziland“, Zohreh Abdollahkhani „Human Rights for Sports, Iran“ (Dr.-Titel entfernt)
+- Speaker-Raster: Abdollahkhani, Maseko, Urruchurtu, Kefas nach Shkolnyi und vor Schulze Heuling einsortiert
+
+## 2026-08-24 · Clemens Acton (mit Cowork)
 - College Freedom Forum, „5 Keynotes im TED-Talk-Stil“ (Fr 15:30): Foto und Bio (DE/EN) für Tanele Maseko, Pedro Urruchurtu, Dr. Zohreh Abdollahkhani und Steven Kefas ergänzt, jeweils mit eigener Profilseite; Zumretay Arkin (angefragt) als Lead-Hinweis erhalten
 
 ## 2026-08-17 · Clemens Schneider
