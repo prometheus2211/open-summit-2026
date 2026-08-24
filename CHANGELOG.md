@@ -1,13 +1,13 @@
-## 2026-08-17 · Clemens Schneider
-- Lia Grahl aus Programm und Speaker-Liste entfernt (Slot Sa 15:30 Friedman Auditorium wieder offen)
-- Piotr Oliński: Bio, Affiliation (FOR) und Portrait ergänzt
-
 # Änderungsprotokoll — Open Summit 2026 Website
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-08-24 · Clemens Acton (mit Cowork)
 - College Freedom Forum, „5 Keynotes im TED-Talk-Stil“ (Fr 15:30): Foto und Bio (DE/EN) für Tanele Maseko, Pedro Urruchurtu, Dr. Zohreh Abdollahkhani und Steven Kefas ergänzt, jeweils mit eigener Profilseite; Zumretay Arkin (angefragt) als Lead-Hinweis erhalten
+
+## 2026-08-17 · Clemens Schneider
+- Lia Grahl aus Programm und Speaker-Liste entfernt (Slot Sa 15:30 Friedman Auditorium wieder offen)
+- Piotr Oliński: Bio, Affiliation (FOR) und Portrait ergänzt
 
 ## 2026-08-07 · Clemens Acton (mit Cowork)
 - „Neue Rechte Medien“ (Ortega Foyer, Sa 11:00): Beschreibung ergänzt, Speaker folgt weiterhin
@@ -23,7 +23,6 @@ Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunte
 - Workshop-Titel Ilia Shkolnyi gekürzt (Untertitel in Beschreibung verschoben)
 - Neuer Speaker Piotr Oliński ergänzt, übernimmt Workshop Sa 16:30 Friedman Auditorium (Titel folgt)
 
-
 ## 2026-08-03 · Clemens Acton (mit Cowork)
 - Frauke Stehrs Workshop „Innovation für alle“ von Sa 16:30 Wollstonecraft Lounge auf Sa 11:00 Friedman Auditorium verlegt (10:00 dort war bereits mit Benner-Keynote belegt); alter Slot 16:30 Wollstonecraft Lounge zurück auf „Programm folgt“
 
@@ -37,16 +36,15 @@ Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunte
 ## 2026-08-03 · Clemens Acton (mit Cowork)
 - „Das Chinesische Jahrhundert“ (Sa 10:00, Keynote): Speaker Thorsten Benner mit Foto und Bio ergänzt, im Speaker-Raster zwischen Palmer und Finck einsortiert
 
-## 2026-07-13 · Clemens Acton (mit Cowork)
-- Tjark Melchert (Ortega Foyer, Sa 15:30): Titel „Deutschland altert. Andere handeln. Was lernen wir?“ und Beschreibung ergänzt
-- Helena Quis: Foto (bereits im Ordner ergänzt) übernommen
-
 ## 2026-07-19 · Clemens Schneider
 - Speaker-Reihenfolge auf der Startseite aktualisiert
 
-
 ## 2026-07-19 · Clemens Schneider
 - Speaker Helena Quis (EDINA) aktualisiert: Bio, Affiliation und Portraitfoto ergänzt
+
+## 2026-07-13 · Clemens Acton (mit Cowork)
+- Tjark Melchert (Ortega Foyer, Sa 15:30): Titel „Deutschland altert. Andere handeln. Was lernen wir?“ und Beschreibung ergänzt
+- Helena Quis: Foto (bereits im Ordner ergänzt) übernommen
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Friedman Auditorium: „Digitalgeld & Freiheit“ (11:00) und „Free-Market Environmentalism“ (15:30) gestrichen; 15:30 jetzt mit Speakerin Lia Grahl (Thema/Bio/Foto folgen), 11:00 zurück auf „Programm folgt“
@@ -97,68 +95,53 @@ Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunte
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Bild-Slider: 2 weitere Fotos aus dem Archiv (Open Summit 2025) ergänzt — Nahaufnahmen zu zweit/dritt beim Networking, jetzt 11 Bilder
 
-
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Bild-Slider: die beiden posierten Zweier-Fotos (Empfangstresen, Gruppenfoto mit Arm um die Schulter) wieder entfernt — jetzt 9 Bilder
-
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Bild-Slider: 4 weitere Fotos aus dem Prometheus-Archiv (Open Summit 2024) ergänzt — Nahaufnahmen zu zweit/dritt, gemischt mit den bestehenden Gruppenaufnahmen (jetzt 11 Bilder)
 
-
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Bild-Slider "Eindrücke" erweitert: 4 zusätzliche Fotos aus vergangenen Open Summits ergänzt (waren im Projekt vorhanden, aber noch nicht eingebunden) — jetzt 7 statt 3 Bilder
-
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Dagmar Schulze Heuling: Zugehörigkeit korrigiert zu Helmut-Schmidt-Universität Hamburg, Kurzbio aktualisiert
 - Ihr Workshop (16:30 Ortega Foyer) umbenannt in „Macht ChatGPT uns dumm?" mit Beschreibung
 
-
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Bugfix: lange Wörter in Programmtiteln (z. B. „gemeinwohlorientierten") liefen in die Nachbarspalte über — overflow-wrap ergänzt (reiner Zeilenumbruch-Fix, keine Design-Änderung)
 - Speaker-Reihenfolge auf der Startseite aktualisiert: Beust, Martin, Oschmann, Tilmann, Palmer, Schulze Heuling, Kolev, Stehr, Melchert, Shkolnyi, Ott, Barakzai, based.
 
-
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Tjark Melchert: Foto ergänzt (aus dem 2026/Speaker/Fotos-Ordner)
-
 
 ## 2026-07-13 · Clemens Acton (mit Cowork)
 - Frauke Stehr (16:30 Wollstonecraft Lounge): vollständiger Workshop-Titel „Innovation für alle: Wie Market Shaping gemeinwohlorientierten Fortschritt stärkt", Beschreibung, Foto und Kurzbio ergänzt
 
-
 ## 2026-07-13 ·  (mit Cowork)
 - Tjark Melchert: Zugehörigkeit (Politischer Aktivist) und Kurzbio ergänzt. Foto folgt noch (als Datei-Upload statt Inline-Bild nötig)
-
 
 ## 2026-07-03 ·  (mit Cowork)
 - 11:00 Wollstonecraft Lounge: „Politische Kommunikation" mit Sohrab Barakzai (Bio/Foto folgen)
 - 15:30 Ortega Foyer: „Thema folgt" mit Tjark Melchert (Bio/Foto folgen)
 - 16:30 Wollstonecraft Lounge: „Innovation" mit Frauke Stehr (Bio/Foto folgen)
 
-
 ## 2026-07-01 · Clemens Acton (mit Cowork)
 - Speaker "based." umbenannt in "based. mit Benjamin Scherp und Dominik Steffens"
-
 
 ## 2026-07-01 · Clemens Acton (mit Cowork)
 - Live-Podcast (17:45): "based." als eigenes Speaker-Profil angelegt (Podcast von Benjamin Scherp & Dominik Steffens, Cover-Foto), statt reinem Freitext verlinkt
 
-
 ## 2026-07-01 · Clemens Acton (mit Cowork)
 - Raumnamen umbenannt: Martineau Auditorium → Friedman Auditorium, Menger Galerie → Bastiat Galerie, Ostrom Lounge → Wollstonecraft Lounge, Chydenius Foyer → Ortega Foyer
 
-
 ## 2026-07-01 · Clemens Acton (mit Cowork)
 - Speaker-Reihenfolge auf der Startseite geändert: Beust, Martin, Oschmann, Tilmann, Palmer, Schulze Heuling, Kolev, Ott, Shkolnyi
-
 
 ## 2026-07-01 · Clemens Acton (mit Cowork)
 - Ostalgie-Debatte (14:15): Moderation Christina Tilmann ergänzt, sie ist jetzt als vollwertige Speakerin mit Foto & Bio auf dem Podium (neben Dirk Oschmann & Marko Martin)
 - 11:00 Menger Galerie: „Kunst & Kultur" ersetzt durch „Thema folgt" mit bestätigtem Speaker Ilia Shkolnyi (Foto folgt)
 - 16:30 Chydenius Foyer: „Programm folgt" ersetzt durch „Sind autonome Waffen ein moralisches Problem?" mit Speakerin Dagmar Schulze Heuling
-
 
 ## 2026-07-01 · Florian Hartjen (mit Cowork)
 - Dinner & After-Party: „DJ Eugen Trichter" → „DJ folgt"
