@@ -2,6 +2,11 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-08-24 · Clemens Schneider
+- Lia Grahl aus Programm und Speakerliste entfernt (Slot Sa 15:30 Friedman Auditorium wieder offen)
+- Piotr Oliński: Bio, Affiliation und Foto ergänzt
+- Marius Drozdzewski: Bio aktualisiert
+
 ## 2026-08-24 · Clemens Acton (mit Cowork)
 - Marius Drozdzewski: Kurzbeschreibung zu „aevum“ gekürzt
 
