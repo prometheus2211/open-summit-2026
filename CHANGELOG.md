@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-08-25 · Clemens Acton (mit Cowork)
+- Sa 15:30, Friedman Auditorium: Simon Blöthner (Austrian Institute) als Speaker eingetragen (Bild/Bio folgen noch)
+
+## 2026-08-25 · Clemens Acton (mit Cowork)
 - Ostalgie-Debatte (Sa 14:15): Titel geändert zu „Zweinigkeit und Recht und Freiheit: Ost und West zwischen Gespaltenen und Spaltern“
 
 ## 2026-08-24 · Clemens Schneider
