@@ -2,6 +2,9 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-08-31 · Clemens Acton (mit Cowork)
+- Simon Blöthner (Friedman Auditorium, Sa 15:30): Foto, Bio und Session-Titel „Gesundheit braucht Profit.“ mit Beschreibung ergänzt
+
 ## 2026-08-28 · Marius Drozdzewski (mit Claude)
 - Speaker-Grid mobil repariert: Spalten gleich breit, einheitliche 4:5-Kacheln (CSS-Fix `minmax(0,1fr)` in global.css, Startseite)
 - Speaker-Profilseiten: Portraits in Farbe statt Schwarz-Weiß (Graufilter auf `.portrait img` entfernt)
