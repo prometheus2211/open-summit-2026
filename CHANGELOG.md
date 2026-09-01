@@ -3,6 +3,9 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-09-01 · Clemens Acton (mit Cowork)
+- Marie-Charlotte Lück: Foto ergänzt
+
+## 2026-09-01 · Clemens Acton (mit Cowork)
 - Wollstonecraft Lounge (Sa 16:30): Speakerin Marie-Charlotte Lück (Initiative Neue Soziale Marktwirtschaft) eingetragen (Thema/Beschreibung/Bio folgen noch), im Speaker-Raster zwischen Piotr Oliński und Nikolai Ott einsortiert
 
 ## 2026-08-31 · Clemens Acton (mit Cowork)
