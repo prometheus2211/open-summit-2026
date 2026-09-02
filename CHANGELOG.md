@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-09-02 · Clemens Schneider
+- Samstags-Parallelslots (11:00/15:30/16:30, alle 4 Räume) gemäß Programm_OS2026.xlsx neu angeordnet: 11:00 Friedman=Tjark Melchert, Bastiat=Sohrab Barakzai, Wollstonecraft=Frauke Stehr, Ortega=Nikolai Ott; 15:30 Friedman=Zoe von Finck, Bastiat=Simon Blöthner, Wollstonecraft=Marie-Charlotte Lück (Titel zu "Reformen (tbd)" aktualisiert), Ortega=Piotr Olinski; 16:30 Friedman=Stefan Kolev, Bastiat=Neue Rechte Medien (Speaker folgt), Wollstonecraft=Ilia Shkolnyi, Ortega=Dagmar Schulze Heuling (unveraendert)
+
+
+## 2026-09-02 · Clemens Schneider
 - Chloe Cheung (Bürgerrechtlerin, Hongkong): neuer Speaker angelegt, Foto ergänzt, im Speaker-Raster zwischen Pedro Urruchurtu und Steven Kefas einsortiert
 
 
