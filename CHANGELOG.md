@@ -2,6 +2,10 @@
 
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
+## 2026-09-02 · Clemens Schneider
+- Chloe Cheung (Bürgerrechtlerin, Hongkong): neuer Speaker angelegt, Foto ergänzt, im Speaker-Raster zwischen Pedro Urruchurtu und Steven Kefas einsortiert
+
+
 ## 2026-09-01 · Clemens Acton (mit Cowork)
 - Marie-Charlotte Lück: Foto ergänzt
 
