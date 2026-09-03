@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-09-03 · Clemens Schneider
+- Live-Podcast-Slot (Sa 17:45): Reihenfolge der Namen auf "Deniz Yücel & based. mit Benjamin Scherp und Dominik Steffens" geändert (Yücel zuerst)
+
+
+## 2026-09-03 · Clemens Schneider
 - Deniz Yücel (Journalist): neuer Speaker angelegt, Foto ergänzt, im Speaker-Raster vor Tom Palmer einsortiert; als Gast beim Live-Podcast "based." (Sa 17:45) eingetragen
 
 
