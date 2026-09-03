@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-09-03 · Clemens Schneider
+- Neues optionales Feld 'titel_kurz'/'titel_kurz_en' im Programm-Schema (content.config.ts) + Startseiten-Agenda (index.astro) genutzt: zeigt gekürzten Titel in der Übersicht, Unterseite bleibt bei voller Länge. Angewendet auf: "Deutschland altert. Andere handeln...", "Innovation für alle: ...", "Zweinigkeit und Recht und Freiheit: ..."
+
+
+## 2026-09-03 · Clemens Schneider
 - Lück-Slot (Sa 15:30, Wollstonecraft Lounge): Titel zurück auf "Thema folgt" (statt "Reformen (tbd)")
 - Speaker-Raster Startseite: Simon Blöthner hinter Sohrab Barakzai einsortiert
 
