@@ -3,6 +3,10 @@
 Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-09-03 · Clemens Schneider
+- Deniz Yücel (Journalist): neuer Speaker angelegt, Foto ergänzt, im Speaker-Raster vor Tom Palmer einsortiert; als Gast beim Live-Podcast "based." (Sa 17:45) eingetragen
+
+
+## 2026-09-03 · Clemens Schneider
 - Neues optionales Feld 'titel_kurz'/'titel_kurz_en' im Programm-Schema (content.config.ts) + Startseiten-Agenda (index.astro) genutzt: zeigt gekürzten Titel in der Übersicht, Unterseite bleibt bei voller Länge. Angewendet auf: "Deutschland altert. Andere handeln...", "Innovation für alle: ...", "Zweinigkeit und Recht und Freiheit: ..."
 
 
