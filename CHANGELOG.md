@@ -6,7 +6,7 @@ Jede Veröffentlichung wird hier protokolliert: `## 2026-09-07 · Florian Hartje
 - SEO: eigene Meta-Description je Speaker- und Programmseite (waren vorher auf allen 50 Seiten identisch)
 - SEO: Startseiten-Title von 88 auf 43 Zeichen gekürzt (wurde in Google abgeschnitten)
 - Alte Open-Summit-Seiten auf heimatderfreiheit.de per 301 auf opensummit.berlin umgeleitet: `/open-summit/`, `/event/open-summit-2025/`, `/event/open-summit-2026/` plus 7 Altvarianten. Rückblick-Artikel und Event-Kalender bleiben erhalten.
-- **Offen:** Die vier SEO-Änderungen liegen in der Quelle (OneDrive) und gehen mit der **nächsten Veröffentlichung** live — ein Build aus der Cowork-Umgebung war nicht möglich (OneDrive-Dateien nur in der Cloud).
+- Umsetzung: direkt im gebauten Stand nachgezogen, da ein Build aus der Cowork-Umgebung nicht möglich war (OneDrive synchronisiert `node_modules`/`dist` mit und ließ die Quelldateien als Platzhalter zurück). Die Änderungen liegen zusätzlich in der Quelle — der nächste Rebuild erzeugt sie identisch, es läuft nichts auseinander.
 
 ## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
