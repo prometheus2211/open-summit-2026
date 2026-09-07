@@ -1,6 +1,14 @@
 # Änderungsprotokoll — Open Summit 2026 Website
 
-Jede Veröffentlichung wird hier protokolliert: `## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
+Jede Veröffentlichung wird hier protokolliert: `## 2026-09-07 · Florian Hartjen (mit Cowork)
+- SEO: `robots.txt` ergänzt (verweist auf die Sitemap)
+- SEO: Event-Schema (JSON-LD) auf der Startseite — Datum, Alte Münze mit Adresse, Veranstalter, Ticket-Link. Ermöglicht Rich Results in Google.
+- SEO: eigene Meta-Description je Speaker- und Programmseite (waren vorher auf allen 50 Seiten identisch)
+- SEO: Startseiten-Title von 88 auf 43 Zeichen gekürzt (wurde in Google abgeschnitten)
+- Alte Open-Summit-Seiten auf heimatderfreiheit.de per 301 auf opensummit.berlin umgeleitet: `/open-summit/`, `/event/open-summit-2025/`, `/event/open-summit-2026/` plus 7 Altvarianten. Rückblick-Artikel und Event-Kalender bleiben erhalten.
+- **Offen:** Die vier SEO-Änderungen liegen in der Quelle (OneDrive) und gehen mit der **nächsten Veröffentlichung** live — ein Build aus der Cowork-Umgebung war nicht möglich (OneDrive-Dateien nur in der Cloud).
+
+## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-09-03 · Clemens Schneider
 - Live-Podcast-Slot (Sa 17:45): Reihenfolge der Namen auf "Deniz Yücel & based. mit Benjamin Scherp und Dominik Steffens" geändert (Yücel zuerst)
