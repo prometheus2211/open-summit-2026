@@ -1,6 +1,11 @@
 # Änderungsprotokoll — Open Summit 2026 Website
 
-Jede Veröffentlichung wird hier protokolliert: `## 2026-09-07 · Florian Hartjen (mit Cowork)
+Jede Veröffentlichung wird hier protokolliert: `## 2026-09-09 · Florian Hartjen (mit Cowork)
+- **Fehler behoben:** Der Ordner `/fonts/` fehlte auf der Live-Seite — alle 8 Schriftdateien lieferten 404. Die Website lief dadurch seit dem 2./3. September mit Ersatzschriften (System-Sans statt Archivo, Georgia statt Fraunces). Aus der Git-Historie wiederhergestellt (heiler Stand vom 28.08.).
+- Ursache: Beim Veröffentlichen wurden die `.woff2`-Dateien als leere OneDrive-Platzhalter kopiert und fielen aus dem Build. Dasselbe war bereits am 19.07. passiert und wurde damals repariert.
+- **Wichtig für künftige Veröffentlichungen:** Vor dem Push prüfen, dass `dist/fonts/` acht Dateien enthält. Solange `node_modules`/`dist` im OneDrive-Ordner liegen und der Sync nicht durchläuft, kann das erneut auftreten.
+
+## 2026-09-07 · Florian Hartjen (mit Cowork)
 - SEO: `robots.txt` ergänzt (verweist auf die Sitemap)
 - SEO: Event-Schema (JSON-LD) auf der Startseite — Datum, Alte Münze mit Adresse, Veranstalter, Ticket-Link. Ermöglicht Rich Results in Google.
 - SEO: eigene Meta-Description je Speaker- und Programmseite (waren vorher auf allen 50 Seiten identisch)
