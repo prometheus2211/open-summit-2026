@@ -8,6 +8,11 @@ Jede Veröffentlichung wird hier protokolliert: `## 2026-09-07 · Florian Hartje
 - Alte Open-Summit-Seiten auf heimatderfreiheit.de per 301 auf opensummit.berlin umgeleitet: `/open-summit/`, `/event/open-summit-2025/`, `/event/open-summit-2026/` plus 7 Altvarianten. Rückblick-Artikel und Event-Kalender bleiben erhalten.
 - Umsetzung: direkt im gebauten Stand nachgezogen, da ein Build aus der Cowork-Umgebung nicht möglich war (OneDrive synchronisiert `node_modules`/`dist` mit und ließ die Quelldateien als Platzhalter zurück). Die Änderungen liegen zusätzlich in der Quelle — der nächste Rebuild erzeugt sie identisch, es läuft nichts auseinander.
 
+## 2026-09-09 · Clemens Schneider
+- Lück-Slot (Sa 15:30, Wollstonecraft Lounge): Titel "Warum wir Reformen wollen, aber nicht machen" + Beschreibung ergänzt
+- Marie-Charlotte Lück: Kurzbio ergänzt (Studium, Stationen, aktuelle Position bei der INSM)
+
+
 ## YYYY-MM-DD · Name`, darunter ein Bullet je Änderung (was + wo). Neueste zuoberst. Wird ab Einführung des `open-summit-website`-Plugins automatisch fortgeschrieben.
 
 ## 2026-09-03 · Clemens Schneider
