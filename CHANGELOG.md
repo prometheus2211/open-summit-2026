@@ -1,6 +1,10 @@
 # Änderungsprotokoll — Open Summit 2026 Website
 
 Jede Veröffentlichung wird hier protokolliert: `## 2026-09-16 · Clemens Schneider
+- "Neue Rechte Medien": Benjamin Scherp und Dominik Steffens als Referenten eingetragen (Platzhalter "Speaker folgt" entfernt). Zugehörigkeit, Bio und Fotos stehen noch aus.
+- Slots getauscht (Bastiat Galerie): "Neue Rechte Medien" jetzt 15:30, "Gesundheit braucht Profit." jetzt 16:30. Die Adressen der Detailseiten bleiben unverändert (/programm/sa-1630-menger/ = 15:30) — bewusst, damit geteilte Links weiter funktionieren.
+
+## 2026-09-16 · Clemens Schneider
 - Keynote Ole von Beust (Sa 12:00): Titel ergänzt — "Was gefährdet unsere Freiheit und wie kann ich mich dagegen wehren?" (EN: "What threatens our freedom — and how can I fight back?"). Bewusst ohne Kurztitel, voller Titel auch im Programmraster.
 
 ## 2026-09-16 · Clemens Schneider
