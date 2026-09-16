@@ -1,6 +1,9 @@
 # Änderungsprotokoll — Open Summit 2026 Website
 
 Jede Veröffentlichung wird hier protokolliert: `## 2026-09-16 · Clemens Schneider
+- Keynote Ole von Beust (Sa 12:00): Titel ergänzt — "Was gefährdet unsere Freiheit und wie kann ich mich dagegen wehren?" (EN: "What threatens our freedom — and how can I fight back?"). Bewusst ohne Kurztitel, voller Titel auch im Programmraster.
+
+## 2026-09-16 · Clemens Schneider
 - Alexander Albrecht: Foto, Rolle ("Senior Fellow Prometheus") und Bio ergänzt — lag seit 11.09. unveröffentlicht in der Quelle
 - Helena Quis von der Website genommen: aus der Session "Cornerstones" (Sa 09:30) und aus der Speaker-Liste. Markdown und Foto liegen zur Sicherheit in `Website/_archiv/entfernte-speaker/`
 - `robots.txt` war live leer (0 Bytes) — durch den Rebuild wieder mit Verweis auf die Sitemap
