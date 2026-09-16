@@ -1,6 +1,12 @@
 # Änderungsprotokoll — Open Summit 2026 Website
 
-Jede Veröffentlichung wird hier protokolliert: `## 2026-09-09 · Florian Hartjen (mit Cowork)
+Jede Veröffentlichung wird hier protokolliert: `## 2026-09-16 · Clemens Schneider
+- Alexander Albrecht: Foto, Rolle ("Senior Fellow Prometheus") und Bio ergänzt — lag seit 11.09. unveröffentlicht in der Quelle
+- Helena Quis von der Website genommen: aus der Session "Cornerstones" (Sa 09:30) und aus der Speaker-Liste. Markdown und Foto liegen zur Sicherheit in `Website/_archiv/entfernte-speaker/`
+- `robots.txt` war live leer (0 Bytes) — durch den Rebuild wieder mit Verweis auf die Sitemap
+- Erste Veröffentlichung wieder direkt vom Rechner gebaut und gepusht (aus der Cloud-Umgebung ist der Push gesperrt)
+
+## 2026-09-09 · Florian Hartjen (mit Cowork)
 - **Fehler behoben:** Der Ordner `/fonts/` fehlte auf der Live-Seite — alle 8 Schriftdateien lieferten 404. Die Website lief dadurch seit dem 2./3. September mit Ersatzschriften (System-Sans statt Archivo, Georgia statt Fraunces). Aus der Git-Historie wiederhergestellt (heiler Stand vom 28.08.).
 - Ursache: Beim Veröffentlichen wurden die `.woff2`-Dateien als leere OneDrive-Platzhalter kopiert und fielen aus dem Build. Dasselbe war bereits am 19.07. passiert und wurde damals repariert.
 - **Wichtig für künftige Veröffentlichungen:** Vor dem Push prüfen, dass `dist/fonts/` acht Dateien enthält. Solange `node_modules`/`dist` im OneDrive-Ordner liegen und der Sync nicht durchläuft, kann das erneut auftreten.
