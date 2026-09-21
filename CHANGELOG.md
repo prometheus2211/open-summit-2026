@@ -1,6 +1,10 @@
 # Änderungsprotokoll — Open Summit 2026 Website
 
 Jede Veröffentlichung wird hier protokolliert: `## 2026-09-21 · Clemens Schneider
+- Anna Neumann neu angelegt und der Session "Cornerstones" (Sa 09:30) als Referentin zugeordnet. Kurzbio wie geliefert; Zugehörigkeit vorläufig "Unternehmenskommunikation, DAX-40-Unternehmen" (aus der Bio abgeleitet). Foto fehlt noch — Karte zeigt solange die Initialen.
+- Reihenfolge im Speaker-Raster: Anna Neumann zwischen Marie-Charlotte Lück und Piotr Oliński einsortiert (Liste in `src/pages/index.astro`).
+
+## 2026-09-21 · Clemens Schneider
 - Tanele Maseko: Ländername auf "Eswatini" aktualisiert (vorher "Swaziland" bzw. "Swasiland") — in Zugehörigkeit (DE/EN) und in der deutschen Kurzbio. Im englischen Text bleibt "Swazi" als Bezeichnung für die Menschen stehen, das ist weiterhin korrekt.
 
 ## 2026-09-16 · Clemens Schneider
