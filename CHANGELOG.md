@@ -1,6 +1,9 @@
 # Änderungsprotokoll — Open Summit 2026 Website
 
 Jede Veröffentlichung wird hier protokolliert: `## 2026-09-21 · Clemens Schneider
+- Anna Neumann: Portrait ergänzt (aus "Anna Neumann.jpg" im Speaker-Fotos-Ordner, auf 4:5 zugeschnitten, 600x750 WebP).
+
+## 2026-09-21 · Clemens Schneider
 - Anna Neumann neu angelegt und der Session "Cornerstones" (Sa 09:30) als Referentin zugeordnet. Kurzbio wie geliefert; Zugehörigkeit vorläufig "Unternehmenskommunikation, DAX-40-Unternehmen" (aus der Bio abgeleitet). Foto fehlt noch — Karte zeigt solange die Initialen.
 - Reihenfolge im Speaker-Raster: Anna Neumann zwischen Marie-Charlotte Lück und Piotr Oliński einsortiert (Liste in `src/pages/index.astro`).
 
