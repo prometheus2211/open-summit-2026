@@ -1,6 +1,11 @@
 # Änderungsprotokoll — Open Summit 2026 Website
 
 Jede Veröffentlichung wird hier protokolliert: `## 2026-09-25 · Clemens Schneider
+- Frédéric Schwilden neu angelegt (Journalist, Kurzbio wie geliefert) und dem Live-Podcast (Sa 17:45) zugeordnet: Deniz Yücel & Frédéric Schwilden im Gespräch mit based.
+- Portrait aus "Schwilden.jpeg" auf 4:5 zugeschnitten (600x750 WebP). Vorlage nur 708x574 px — leicht hochskaliert.
+- Reihenfolge im Speaker-Raster: zwischen Zoe von Finck und Stefan Kolev.
+
+## 2026-09-25 · Clemens Schneider
 - Portraits für Benjamin Scherp und Dominik Steffens ergänzt (aus "Scherp.webp" und "Steffens.jpg" im Speaker-Fotos-Ordner, auf 4:5 zugeschnitten, 600x750 WebP). Scherps Vorlage war ein Querformat mit 574 px Höhe — der Ausschnitt musste auf das Gesicht zentriert und leicht hochskaliert werden; eine größere Vorlage wäre schärfer.
 - Zugehörigkeit und Kurzbio der beiden stehen weiterhin auf "Angaben folgen".
 
