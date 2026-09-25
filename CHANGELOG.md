@@ -1,6 +1,10 @@
 # Änderungsprotokoll — Open Summit 2026 Website
 
-Jede Veröffentlichung wird hier protokolliert: `## 2026-09-23 · Clemens Schneider
+Jede Veröffentlichung wird hier protokolliert: `## 2026-09-25 · Clemens Schneider
+- Portraits für Benjamin Scherp und Dominik Steffens ergänzt (aus "Scherp.webp" und "Steffens.jpg" im Speaker-Fotos-Ordner, auf 4:5 zugeschnitten, 600x750 WebP). Scherps Vorlage war ein Querformat mit 574 px Höhe — der Ausschnitt musste auf das Gesicht zentriert und leicht hochskaliert werden; eine größere Vorlage wäre schärfer.
+- Zugehörigkeit und Kurzbio der beiden stehen weiterhin auf "Angaben folgen".
+
+## 2026-09-23 · Clemens Schneider
 - Steven Kefas von der Website genommen: aus "5 Keynotes im TED-Talk-Stil" (Fr 15:30), aus dem Speaker-Raster und aus der Sortierliste. Markdown und Foto liegen in `Website/_archiv/entfernte-speaker/`. Der Sessiontitel bleibt bewusst "5 Keynotes" (fünfte Person noch angefragt).
 
 ## 2026-09-21 · Clemens Schneider
