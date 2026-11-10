@@ -1,3 +1,6 @@
+## 2026-11-10 · Florian Hartjen
+- Umstellung auf Open Summit 2027: 18.09.2027, Alte Münze (Am Krögel 2), Programm folgt, Early Bird 15 € bis 18.03., Ticketlink auf neues Luma-Event; Speaker und Programm 2026 entfernt (Quelle archiviert unter 2026/Website/astro-archiv-os26), CFF und HRF entfernt
+
 # Änderungsprotokoll — Open Summit 2026 Website
 
 Jede Veröffentlichung wird hier protokolliert: `## 2026-09-25 · Clemens Schneider
